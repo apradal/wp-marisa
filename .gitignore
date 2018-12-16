@@ -1,0 +1,9 @@
+*.log
+wp-config.php
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+
+/.htaccess
+/license.txt
+/readme.html
