@@ -1,0 +1,56 @@
+/*
+Theme Name:		 onepress child
+Theme URI:		 http://childtheme-generator.com/
+Description:	 onepress child is a child theme of OnePress, created by ChildTheme-Generator.com
+Author:			 aprada
+Author URI:		 http://childtheme-generator.com/
+Template:		 onepress
+Version:		 1.0.0
+Text Domain:	 onepress-child
+
+    Add your custom styles here
+/* ------------------------------------------------------------- */
+
+/*------------------------------
+	General
+------------------------------*/
+
+
+
+/*------------------------------
+	Hero
+------------------------------*/
+.hero__content .hero-large-text {
+    color: #000;
+    font-size: 4rem;
+}
+.hero__content .hero-small-text h3, .hero__content .hero-small-text p{
+    color: #62615f;
+}
+.hero__content .hero-small-text .strong {
+    font-weight: bold;
+}
+
+/*------------------------------
+	Content
+------------------------------*/
+#content {
+    background-color: #F6F6F6;
+}
+
+/*------------------------------
+	Aside
+------------------------------*/
+#search-2 form .search-submit {
+    background-color: #000;
+}
+#search-2 form .search-field {
+    background-color: #fff;
+}
+
+/*------------------------------
+	Colaboraciones
+------------------------------*/
+.flecha span strong {
+    color: #000;
+}
