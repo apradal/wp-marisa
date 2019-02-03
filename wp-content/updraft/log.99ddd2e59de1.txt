@@ -1,0 +1,427 @@
+0000.002 (0) Opened log file at time: Sun, 16 Dec 2018 12:10:51 +0000 on http://wp-marisa.local
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.6M | 28M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 388625 MB
+0000.020 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: every4hours)
+0000.022 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.030 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1543754656, seconds_ago=1207595)
+0000.033 (0) Set semaphore last lock (d) time to 2018-12-16 12:10:51
+0000.035 (0) Semaphore lock (d) complete
+0000.041 (0) Backup run: resumption=0, nonce=99ddd2e59de1, begun at=1544962251 (0s ago), job type=backup
+0000.044 (0) Scheduling a resumption (1) after 300 seconds (1544962551) in case this run gets aborted
+0000.058 (0) This backup run is not intended for files - skipping
+0000.060 (0) Beginning creation of database dump (WordPress DB)
+0000.086 (0) Table hzadwbqccommentmeta: Total expected rows (approximate): 0
+0000.095 (0) Table hzadwbqccommentmeta: Total rows added: 0 in 0.01 seconds
+0000.103 (0) Table hzadwbqccommentmeta: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqccommentmeta.table.gz - 0.4 KB)
+0000.114 (0) Table hzadwbqccomments: Total expected rows (approximate): 0
+0000.128 (0) Table hzadwbqccomments: Total rows added: 0 in 0.01 seconds
+0000.136 (0) Table hzadwbqccomments: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqccomments.table.gz - 0.5 KB)
+0000.145 (0) Table hzadwbqclinks: Total expected rows (approximate): 0
+0000.161 (0) Table hzadwbqclinks: Total rows added: 0 in 0.01 seconds
+0000.172 (0) Table hzadwbqclinks: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqclinks.table.gz - 0.5 KB)
+0000.187 (0) Table hzadwbqcoptions: Total expected rows (approximate): 195
+0000.214 (0) Table hzadwbqcoptions: Total rows added: 191 in 0.02 seconds
+0000.223 (0) Table hzadwbqcoptions: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcoptions.table.gz - 12.2 KB)
+0000.232 (0) Table hzadwbqcpostmeta: Total expected rows (approximate): 272
+0000.268 (0) Table hzadwbqcpostmeta: Total rows added: 272 in 0.03 seconds
+0000.280 (0) Table hzadwbqcpostmeta: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcpostmeta.table.gz - 6 KB)
+0000.289 (0) Table hzadwbqcposts: Total expected rows (approximate): 60
+0000.323 (0) Table hzadwbqcposts: Total rows added: 60 in 0.03 seconds
+0000.332 (0) Table hzadwbqcposts: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcposts.table.gz - 12.6 KB)
+0000.342 (0) Table hzadwbqcterm_relationships: Total expected rows (approximate): 7
+0000.358 (0) Table hzadwbqcterm_relationships: Total rows added: 7 in 0.01 seconds
+0000.367 (0) Table hzadwbqcterm_relationships: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcterm_relationships.table.gz - 0.4 KB)
+0000.376 (0) Table hzadwbqcterm_taxonomy: Total expected rows (approximate): 7
+0000.395 (0) Table hzadwbqcterm_taxonomy: Total rows added: 7 in 0.02 seconds
+0000.406 (0) Table hzadwbqcterm_taxonomy: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcterm_taxonomy.table.gz - 0.5 KB)
+0000.416 (0) Table hzadwbqctermmeta: Total expected rows (approximate): 0
+0000.431 (0) Table hzadwbqctermmeta: Total rows added: 0 in 0.01 seconds
+0000.439 (0) Table hzadwbqctermmeta: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqctermmeta.table.gz - 0.4 KB)
+0000.449 (0) Table hzadwbqcterms: Total expected rows (approximate): 7
+0000.460 (0) Table hzadwbqcterms: Total rows added: 7 in 0.01 seconds
+0000.468 (0) Table hzadwbqcterms: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcterms.table.gz - 0.5 KB)
+0000.476 (0) Table hzadwbqcusermeta: Total expected rows (approximate): 39
+0000.489 (0) Table hzadwbqcusermeta: Total rows added: 39 in 0.01 seconds
+0000.498 (0) Table hzadwbqcusermeta: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcusermeta.table.gz - 1.3 KB)
+0000.508 (0) Table hzadwbqcusers: Total expected rows (approximate): 2
+0000.527 (0) Table hzadwbqcusers: Total rows added: 2 in 0.02 seconds
+0000.535 (0) Table hzadwbqcusers: finishing file (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcusers.table.gz - 0.7 KB)
+0000.544 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqccommentmeta.table.gz (1/12): adding to final database dump
+0000.547 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqccomments.table.gz (2/12): adding to final database dump
+0000.550 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqclinks.table.gz (3/12): adding to final database dump
+0000.553 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcoptions.table.gz (4/12): adding to final database dump
+0000.559 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcpostmeta.table.gz (5/12): adding to final database dump
+0000.567 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcposts.table.gz (6/12): adding to final database dump
+0000.574 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcterm_relationships.table.gz (7/12): adding to final database dump
+0000.577 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcterm_taxonomy.table.gz (8/12): adding to final database dump
+0000.579 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqctermmeta.table.gz (9/12): adding to final database dump
+0000.582 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcterms.table.gz (10/12): adding to final database dump
+0000.584 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcusermeta.table.gz (11/12): adding to final database dump
+0000.587 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db-table-hzadwbqcusers.table.gz (12/12): adding to final database dump
+0000.606 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: finished writing out complete database file (24 KB)
+0000.631 (0) Total database tables backed up: 12 (backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz, size: 33442, sha256)
+0000.642 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.644 (0) Saving backup history. Total backup size: 32.7 KB
+0000.650 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.656 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0000.658 (0) Beginning dispatch of backup to remote (email)
+0000.660 (0) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+0001.685 (0) Mails were not sent successfully
+0001.688 (0) An error condition has occurred for the first time during this job
+0001.691 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.694 (0) Number of backup sets in history: 5; groups (db): 1
+0001.696 (0) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0001.698 (0) This backup set is the backup set just made, so will not be deleted.
+0001.698 (0) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0001.698 (0) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0001.698 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.700 (0) Examining (for databases) backup set with group_id=0, nonce=c441466274dd, datestamp=1543597994 (Nov 30 2018 17:13:14)
+0001.700 (0) Examining (for databases) backup set with group_id=0, nonce=d6a9fce3ed44, datestamp=1543597990 (Nov 30 2018 17:13:10)
+0001.700 (0) 1543597990: db: this set includes a database (backup_2018-11-30-1713_MARISA_HERNNDEZ_TORRIJO_PSIC_d6a9fce3ed44-db.gz); db count is now 2
+0001.700 (0) 1543597990: db: over retain limit (2); will delete this database
+0001.700 (0) Delete file: backup_2018-11-30-1713_MARISA_HERNNDEZ_TORRIJO_PSIC_d6a9fce3ed44-db.gz, service=email
+0001.704 (0) This backup set is now empty; will remove from history
+0001.706 (0) Deleting log file (log.d6a9fce3ed44.txt)
+0001.708 (0) Number of backup sets in history: 4; groups (files): 1
+0001.710 (0) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0001.710 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.712 (0) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0001.712 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.714 (0) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0001.714 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.715 (0) Examining (for files) backup set with nonce=c441466274dd, datestamp=1543597994 (Nov 30 2018 17:13:14)
+0001.715 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.717 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0001.724 (0) Resume backup (99ddd2e59de1, 0): finish run
+0001.727 (0) Decremented the semaphore (d) by 1
+0001.729 (0) Semaphore (d) unlocked
+0001.731 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0001.736 (0) Rescheduling resumption 1: moving to 100 seconds from now (1544962353)
+0001.740 (0) No email will/can be sent - the user has not configured an email address.
+0001.742 (0) El respaldo no ha terminado; una reanudación está programada
+0113.532 (1) Opened log file at time: Sun, 16 Dec 2018 12:12:45 +0000 on http://wp-marisa.local
+0113.535 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 8M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0113.537 (1) Free space on disk containing Updraft's temporary directory: 388613.7 MB
+0113.541 (1) Backup run: resumption=1, nonce=99ddd2e59de1, begun at=1544962251 (114s ago), job type=backup, previous check-in=1.7s
+0113.544 (1) Scheduling a resumption (2) after 300 seconds (1544962665) in case this run gets aborted
+0113.558 (1) This backup run is not intended for files - skipping
+0113.560 (1) Database dump (WordPress DB): Creation was completed already
+0113.573 (1) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0113.575 (1) Saving backup history. Total backup size: 32.7 KB
+0113.581 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0113.584 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0113.586 (1) Beginning dispatch of backup to remote (email)
+0113.588 (1) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+0114.636 (1) Mails were not sent successfully
+0114.638 (1) An error condition has occurred for the first time during this job
+0114.642 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0114.644 (1) Number of backup sets in history: 4; groups (db): 1
+0114.646 (1) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+0114.648 (1) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0114.648 (1) This backup set is the backup set just made, so will not be deleted.
+0114.648 (1) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0114.648 (1) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0114.649 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0114.650 (1) Number of backup sets in history: 4; groups (files): 1
+0114.652 (1) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+0114.652 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0114.654 (1) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0114.654 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0114.656 (1) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0114.656 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0114.658 (1) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0114.658 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0114.659 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0114.664 (1) Resume backup (99ddd2e59de1, 1): finish run
+0114.667 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0114.671 (1) No email will/can be sent - the user has not configured an email address.
+0114.672 (1) El respaldo no ha terminado; una reanudación está programada
+0465.413 (2) Opened log file at time: Sun, 16 Dec 2018 12:18:37 +0000 on http://wp-marisa.local
+0465.416 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 6M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0465.418 (2) Free space on disk containing Updraft's temporary directory: 388608.5 MB
+0465.421 (2) Backup run: resumption=2, nonce=99ddd2e59de1, begun at=1544962251 (466s ago), job type=backup
+0465.424 (2) Scheduling a resumption (3) after 300 seconds (1544963017) in case this run gets aborted
+0465.438 (2) This backup run is not intended for files - skipping
+0465.440 (2) Database dump (WordPress DB): Creation was completed already
+0465.452 (2) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0465.454 (2) Saving backup history. Total backup size: 32.7 KB
+0465.459 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0465.462 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+0465.464 (2) Beginning dispatch of backup to remote (email)
+0465.466 (2) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+0466.647 (2) Mails were not sent successfully
+0466.649 (2) An error condition has occurred for the first time during this job
+0466.653 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0466.655 (2) Number of backup sets in history: 4; groups (db): 1
+0466.657 (2) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+0466.659 (2) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0466.659 (2) This backup set is the backup set just made, so will not be deleted.
+0466.659 (2) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0466.659 (2) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0466.659 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0466.661 (2) Number of backup sets in history: 4; groups (files): 1
+0466.663 (2) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+0466.663 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0466.665 (2) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0466.665 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0466.666 (2) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0466.666 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0466.668 (2) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0466.668 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0466.670 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0466.674 (2) Resume backup (99ddd2e59de1, 2): finish run
+0466.677 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0466.681 (2) No email will/can be sent - the user has not configured an email address.
+0466.682 (2) El respaldo no ha terminado; una reanudación está programada
+0829.478 (3) Opened log file at time: Sun, 16 Dec 2018 12:24:41 +0000 on http://wp-marisa.local
+0829.481 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0829.483 (3) Free space on disk containing Updraft's temporary directory: 388633.6 MB
+0829.486 (3) Backup run: resumption=3, nonce=99ddd2e59de1, begun at=1544962251 (830s ago), job type=backup
+0829.489 (3) Scheduling a resumption (4) after 300 seconds (1544963381) in case this run gets aborted
+0829.503 (3) This backup run is not intended for files - skipping
+0829.505 (3) Database dump (WordPress DB): Creation was completed already
+0829.519 (3) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0829.520 (3) Saving backup history. Total backup size: 32.7 KB
+0829.526 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0829.529 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+0829.531 (3) Beginning dispatch of backup to remote (email)
+0829.533 (3) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+0830.743 (3) Mails were not sent successfully
+0830.745 (3) An error condition has occurred for the first time during this job
+0830.749 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0830.752 (3) Number of backup sets in history: 4; groups (db): 1
+0830.754 (3) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+0830.755 (3) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0830.756 (3) This backup set is the backup set just made, so will not be deleted.
+0830.756 (3) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0830.756 (3) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0830.756 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0830.758 (3) Number of backup sets in history: 4; groups (files): 1
+0830.760 (3) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+0830.760 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+0830.762 (3) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+0830.762 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0830.763 (3) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+0830.763 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+0830.765 (3) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+0830.765 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0830.767 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0830.771 (3) Resume backup (99ddd2e59de1, 3): finish run
+0830.775 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0830.778 (3) No email will/can be sent - the user has not configured an email address.
+0830.780 (3) El respaldo no ha terminado; una reanudación está programada
+1198.046 (4) Opened log file at time: Sun, 16 Dec 2018 12:30:49 +0000 on http://wp-marisa.local
+1198.049 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1198.051 (4) Free space on disk containing Updraft's temporary directory: 388631.3 MB
+1198.055 (4) Backup run: resumption=4, nonce=99ddd2e59de1, begun at=1544962251 (1198s ago), job type=backup
+1198.058 (4) Scheduling a resumption (5) after 300 seconds (1544963749) in case this run gets aborted
+1198.072 (4) This backup run is not intended for files - skipping
+1198.074 (4) Database dump (WordPress DB): Creation was completed already
+1198.089 (4) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+1198.091 (4) Saving backup history. Total backup size: 32.7 KB
+1198.096 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+1198.100 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+1198.102 (4) Beginning dispatch of backup to remote (email)
+1198.104 (4) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+1199.286 (4) Mails were not sent successfully
+1199.288 (4) An error condition has occurred for the first time during this job
+1199.291 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1199.294 (4) Number of backup sets in history: 4; groups (db): 1
+1199.296 (4) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+1199.298 (4) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+1199.298 (4) This backup set is the backup set just made, so will not be deleted.
+1199.298 (4) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+1199.298 (4) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+1199.299 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1199.300 (4) Number of backup sets in history: 4; groups (files): 1
+1199.302 (4) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+1199.302 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+1199.304 (4) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+1199.304 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1199.306 (4) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+1199.306 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+1199.308 (4) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+1199.308 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1199.309 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1199.314 (4) Resume backup (99ddd2e59de1, 4): finish run
+1199.317 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1199.320 (4) No email will/can be sent - the user has not configured an email address.
+1199.322 (4) El respaldo no ha terminado; una reanudación está programada
+1500.121 (5) Opened log file at time: Sun, 16 Dec 2018 12:35:51 +0000 on http://wp-marisa.local
+1500.124 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1500.126 (5) Free space on disk containing Updraft's temporary directory: 388601.4 MB
+1500.129 (5) Backup run: resumption=5, nonce=99ddd2e59de1, begun at=1544962251 (1500s ago), job type=backup
+1500.133 (5) Scheduling a resumption (6) after 300 seconds (1544964051) in case this run gets aborted
+1500.146 (5) This backup run is not intended for files - skipping
+1500.148 (5) Database dump (WordPress DB): Creation was completed already
+1500.162 (5) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+1500.164 (5) Saving backup history. Total backup size: 32.7 KB
+1500.169 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+1500.172 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+1500.174 (5) Beginning dispatch of backup to remote (email)
+1500.176 (5) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+1501.266 (5) Mails were not sent successfully
+1501.268 (5) An error condition has occurred for the first time during this job
+1501.272 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1501.275 (5) Number of backup sets in history: 4; groups (db): 1
+1501.277 (5) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+1501.279 (5) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+1501.279 (5) This backup set is the backup set just made, so will not be deleted.
+1501.279 (5) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+1501.279 (5) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+1501.279 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1501.281 (5) Number of backup sets in history: 4; groups (files): 1
+1501.283 (5) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+1501.283 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+1501.285 (5) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+1501.285 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1501.286 (5) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+1501.287 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+1501.288 (5) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+1501.289 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1501.290 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1501.295 (5) Resume backup (99ddd2e59de1, 5): finish run
+1501.298 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1501.302 (5) No email will/can be sent - the user has not configured an email address.
+1501.304 (5) El respaldo no ha terminado; una reanudación está programada
+1895.010 (6) Opened log file at time: Sun, 16 Dec 2018 12:42:26 +0000 on http://wp-marisa.local
+1895.012 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1895.014 (6) Free space on disk containing Updraft's temporary directory: 388595.9 MB
+1895.018 (6) Backup run: resumption=6, nonce=99ddd2e59de1, begun at=1544962251 (1895s ago), job type=backup
+1895.021 (6) Scheduling a resumption (7) after 300 seconds (1544964446) in case this run gets aborted
+1895.035 (6) This backup run is not intended for files - skipping
+1895.036 (6) Database dump (WordPress DB): Creation was completed already
+1895.050 (6) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+1895.051 (6) Saving backup history. Total backup size: 32.7 KB
+1895.057 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+1895.060 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+1895.062 (6) Beginning dispatch of backup to remote (email)
+1895.064 (6) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+1896.210 (6) Mails were not sent successfully
+1896.213 (6) An error condition has occurred for the first time during this job
+1896.216 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1896.219 (6) Number of backup sets in history: 4; groups (db): 1
+1896.221 (6) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+1896.223 (6) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+1896.223 (6) This backup set is the backup set just made, so will not be deleted.
+1896.223 (6) Examining (for databases) backup set with group_id=0, nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+1896.223 (6) Examining (for databases) backup set with group_id=0, nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+1896.223 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1896.225 (6) Number of backup sets in history: 4; groups (files): 1
+1896.226 (6) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+1896.227 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+1896.228 (6) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+1896.228 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1896.230 (6) Examining (for files) backup set with nonce=6aa36df5d400, datestamp=1543754660 (Dec 02 2018 12:44:20)
+1896.230 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+1896.232 (6) Examining (for files) backup set with nonce=80950e14b2f4, datestamp=1543754656 (Dec 02 2018 12:44:16)
+1896.232 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1896.234 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1896.238 (6) Resume backup (99ddd2e59de1, 6): finish run
+1896.241 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1896.245 (6) No email will/can be sent - the user has not configured an email address.
+1896.247 (6) El respaldo no ha terminado; una reanudación está programada
+14831.403 (7) Opened log file at time: Sun, 16 Dec 2018 16:18:03 +0000 on http://wp-marisa.local
+14831.453 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 26M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+14831.511 (7) Free space on disk containing Updraft's temporary directory: 388614.8 MB
+14831.554 (7) Backup run: resumption=7, nonce=99ddd2e59de1, begun at=1544962251 (14832s ago), job type=backup
+14831.560 (7) Long time past since expected resumption time: approx expected=1544964446.8, now=1544977083.1, diff=12636.3
+14831.571 (7) [Warning] Su sitio web es visitado con poca frecuencia y UpdraftPlus no está recibiendo los recursos que se espera, por favor lea esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+14831.580 (7) Scheduling a resumption (8) after 300 seconds (1544977383) in case this run gets aborted
+14831.665 (7) This backup run is not intended for files - skipping
+14831.671 (7) Database dump (WordPress DB): Creation was completed already
+14831.815 (7) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+14831.817 (7) Saving backup history. Total backup size: 32.7 KB
+14831.823 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+14831.826 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+14831.828 (7) Beginning dispatch of backup to remote (email)
+14831.831 (7) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+14833.094 (7) Mails were not sent successfully
+14833.097 (7) An error condition has occurred for the first time during this job
+14833.101 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14833.104 (7) Number of backup sets in history: 3; groups (db): 1
+14833.106 (7) Examining (for databases) backup set with group_id=0, nonce=461405ebc14b, datestamp=1544964227 (Dec 16 2018 12:43:47)
+14833.108 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+14833.110 (7) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+14833.110 (7) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+14833.110 (7) This backup set is the backup set just made, so will not be deleted.
+14833.110 (7) Number of backup sets in history: 3; groups (files): 1
+14833.112 (7) Examining (for files) backup set with nonce=461405ebc14b, datestamp=1544964227 (Dec 16 2018 12:43:47)
+14833.113 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+14833.114 (7) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+14833.114 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+14833.116 (7) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+14833.116 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+14833.118 (7) Retain: saving new backup history (sets now: 3) and finishing retain operation
+14833.123 (7) Resume backup (99ddd2e59de1, 7): finish run
+14833.127 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14833.131 (7) No email will/can be sent - the user has not configured an email address.
+14833.132 (7) El respaldo no ha terminado; una reanudación está programada
+15150.636 (8) Opened log file at time: Sun, 16 Dec 2018 16:23:22 +0000 on http://wp-marisa.local
+15150.639 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+15150.641 (8) Free space on disk containing Updraft's temporary directory: 388588.9 MB
+15150.645 (8) Backup run: resumption=8, nonce=99ddd2e59de1, begun at=1544962251 (15151s ago), job type=backup
+15150.649 (8) Scheduling a resumption (9) after 300 seconds (1544977702) in case this run gets aborted
+15150.663 (8) This backup run is not intended for files - skipping
+15150.665 (8) Database dump (WordPress DB): Creation was completed already
+15150.680 (8) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+15150.681 (8) Saving backup history. Total backup size: 32.7 KB
+15150.687 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+15150.691 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+15150.692 (8) Beginning dispatch of backup to remote (email)
+15150.695 (8) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+15151.786 (8) Mails were not sent successfully
+15151.788 (8) An error condition has occurred for the first time during this job
+15151.792 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15151.795 (8) Number of backup sets in history: 3; groups (db): 1
+15151.797 (8) Examining (for databases) backup set with group_id=0, nonce=461405ebc14b, datestamp=1544964227 (Dec 16 2018 12:43:47)
+15151.799 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+15151.801 (8) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+15151.801 (8) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+15151.801 (8) This backup set is the backup set just made, so will not be deleted.
+15151.801 (8) Number of backup sets in history: 3; groups (files): 1
+15151.803 (8) Examining (for files) backup set with nonce=461405ebc14b, datestamp=1544964227 (Dec 16 2018 12:43:47)
+15151.803 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+15151.805 (8) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+15151.805 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+15151.807 (8) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+15151.807 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+15151.809 (8) Retain: saving new backup history (sets now: 3) and finishing retain operation
+15151.814 (8) Resume backup (99ddd2e59de1, 8): finish run
+15151.817 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15151.821 (8) No email will/can be sent - the user has not configured an email address.
+15151.823 (8) El respaldo no ha terminado; una reanudación está programada
+15463.125 (9) Opened log file at time: Sun, 16 Dec 2018 16:28:34 +0000 on http://wp-marisa.local
+15463.128 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 10M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+15463.131 (9) Free space on disk containing Updraft's temporary directory: 388591.4 MB
+15463.136 (9) Backup run: resumption=9, nonce=99ddd2e59de1, begun at=1544962251 (15463s ago), job type=backup
+15463.140 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+15463.154 (9) This backup run is not intended for files - skipping
+15463.156 (9) Database dump (WordPress DB): Creation was completed already
+15463.171 (9) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: db: This file has not yet been successfully uploaded: will queue
+15463.173 (9) Saving backup history. Total backup size: 32.7 KB
+15463.179 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+15463.183 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+15463.185 (9) Beginning dispatch of backup to remote (email)
+15463.187 (9) backup_2018-12-16-1210_MARISA_HERNNDEZ_TORRIJO_PSIC_99ddd2e59de1-db.gz: email to: anton...
+15464.296 (9) Mails were not sent successfully
+15464.298 (9) An error condition has occurred for the first time during this job
+15464.302 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15464.305 (9) Number of backup sets in history: 3; groups (db): 1
+15464.307 (9) Examining (for databases) backup set with group_id=0, nonce=461405ebc14b, datestamp=1544964227 (Dec 16 2018 12:43:47)
+15464.309 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+15464.312 (9) Examining (for databases) backup set with group_id=0, nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+15464.312 (9) Examining (for databases) backup set with group_id=0, nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+15464.312 (9) This backup set is the backup set just made, so will not be deleted.
+15464.312 (9) Number of backup sets in history: 3; groups (files): 1
+15464.314 (9) Examining (for files) backup set with nonce=461405ebc14b, datestamp=1544964227 (Dec 16 2018 12:43:47)
+15464.314 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+15464.317 (9) Examining (for files) backup set with nonce=5b1a867b94b1, datestamp=1544962260 (Dec 16 2018 12:11:00)
+15464.317 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+15464.319 (9) Examining (for files) backup set with nonce=99ddd2e59de1, datestamp=1544962251 (Dec 16 2018 12:10:51)
+15464.319 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+15464.322 (9) Retain: saving new backup history (sets now: 3) and finishing retain operation
+15464.338 (9) Resume backup (99ddd2e59de1, 9): finish run
+15464.342 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15464.347 (9) No email will/can be sent - the user has not configured an email address.
+15464.349 (9) El intento de respaldo ha terminado, al parecer sin éxito

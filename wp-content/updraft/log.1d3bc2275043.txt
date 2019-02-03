@@ -1,0 +1,133 @@
+0000.001 (0) Opened log file at time: Sun, 03 Feb 2019 16:57:05 +0000 on http://wp-marisa.local
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.1M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 389093.8 MB
+0000.018 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: every4hours)
+0000.021 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.026 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1549205649, seconds_ago=7376)
+0000.030 (0) Set semaphore last lock (d) time to 2019-02-03 16:57:05
+0000.031 (0) Semaphore lock (d) complete
+0000.039 (0) Backup run: resumption=0, nonce=1d3bc2275043, begun at=1549213025 (0s ago), job type=backup
+0000.043 (0) Scheduling a resumption (1) after 300 seconds (1549213325) in case this run gets aborted
+0000.048 (0) This backup run is not intended for files - skipping
+0000.050 (0) Beginning creation of database dump (WordPress DB)
+0000.071 (0) Table hzadwbqccommentmeta: Total expected rows (approximate): 0
+0000.094 (0) Table hzadwbqccommentmeta: Total rows added: 0 in 0.02 seconds
+0000.102 (0) Table hzadwbqccommentmeta: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqccommentmeta.table.gz - 0.4 KB)
+0000.113 (0) Table hzadwbqccomments: Total expected rows (approximate): 0
+0000.132 (0) Table hzadwbqccomments: Total rows added: 0 in 0.02 seconds
+0000.140 (0) Table hzadwbqccomments: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqccomments.table.gz - 0.5 KB)
+0000.150 (0) Table hzadwbqclinks: Total expected rows (approximate): 0
+0000.166 (0) Table hzadwbqclinks: Total rows added: 0 in 0.01 seconds
+0000.174 (0) Table hzadwbqclinks: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqclinks.table.gz - 0.5 KB)
+0000.184 (0) Table hzadwbqcoptions: Total expected rows (approximate): 205
+0000.236 (0) Table hzadwbqcoptions: Total rows added: 199 in 0.05 seconds
+0000.245 (0) Table hzadwbqcoptions: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcoptions.table.gz - 84.1 KB)
+0000.254 (0) Table hzadwbqcpostmeta: Total expected rows (approximate): 408
+0000.283 (0) Table hzadwbqcpostmeta: Total rows added: 408 in 0.03 seconds
+0000.292 (0) Table hzadwbqcpostmeta: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcpostmeta.table.gz - 7.6 KB)
+0000.302 (0) Table hzadwbqcposts: Total expected rows (approximate): 122
+0000.352 (0) Table hzadwbqcposts: Total rows added: 122 in 0.05 seconds
+0000.361 (0) Table hzadwbqcposts: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcposts.table.gz - 23.2 KB)
+0000.371 (0) Table hzadwbqcterm_relationships: Total expected rows (approximate): 8
+0000.385 (0) Table hzadwbqcterm_relationships: Total rows added: 8 in 0.01 seconds
+0000.393 (0) Table hzadwbqcterm_relationships: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcterm_relationships.table.gz - 0.4 KB)
+0000.402 (0) Table hzadwbqcterm_taxonomy: Total expected rows (approximate): 7
+0000.418 (0) Table hzadwbqcterm_taxonomy: Total rows added: 7 in 0.01 seconds
+0000.427 (0) Table hzadwbqcterm_taxonomy: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcterm_taxonomy.table.gz - 0.5 KB)
+0000.436 (0) Table hzadwbqctermmeta: Total expected rows (approximate): 0
+0000.446 (0) Table hzadwbqctermmeta: Total rows added: 0 in 0.01 seconds
+0000.454 (0) Table hzadwbqctermmeta: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqctermmeta.table.gz - 0.4 KB)
+0000.463 (0) Table hzadwbqcterms: Total expected rows (approximate): 7
+0000.474 (0) Table hzadwbqcterms: Total rows added: 7 in 0.01 seconds
+0000.482 (0) Table hzadwbqcterms: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcterms.table.gz - 0.5 KB)
+0000.491 (0) Table hzadwbqcusermeta: Total expected rows (approximate): 41
+0000.502 (0) Table hzadwbqcusermeta: Total rows added: 41 in 0.01 seconds
+0000.510 (0) Table hzadwbqcusermeta: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcusermeta.table.gz - 1.4 KB)
+0000.519 (0) Table hzadwbqcusers: Total expected rows (approximate): 2
+0000.533 (0) Table hzadwbqcusers: Total rows added: 2 in 0.01 seconds
+0000.541 (0) Table hzadwbqcusers: finishing file (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcusers.table.gz - 0.7 KB)
+0000.549 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqccommentmeta.table.gz (1/12): adding to final database dump
+0000.551 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqccomments.table.gz (2/12): adding to final database dump
+0000.554 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqclinks.table.gz (3/12): adding to final database dump
+0000.556 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcoptions.table.gz (4/12): adding to final database dump
+0000.580 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcpostmeta.table.gz (5/12): adding to final database dump
+0000.588 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcposts.table.gz (6/12): adding to final database dump
+0000.599 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcterm_relationships.table.gz (7/12): adding to final database dump
+0000.602 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcterm_taxonomy.table.gz (8/12): adding to final database dump
+0000.605 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqctermmeta.table.gz (9/12): adding to final database dump
+0000.607 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcterms.table.gz (10/12): adding to final database dump
+0000.609 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcusermeta.table.gz (11/12): adding to final database dump
+0000.612 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db-table-hzadwbqcusers.table.gz (12/12): adding to final database dump
+0000.621 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz: finished writing out complete database file (96 KB)
+0000.639 (0) Total database tables backed up: 12 (backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz, size: 119927, sha256)
+0000.650 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.652 (0) Saving backup history. Total backup size: 117.1 KB
+0000.657 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.660 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0000.662 (0) Beginning dispatch of backup to remote (email)
+0000.664 (0) backup_2019-02-03-1657_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz: email to: anton...
+0001.671 (0) Mails were not sent successfully
+0001.675 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.678 (0) Number of backup sets in history: 5; groups (db): 1
+0001.680 (0) Examining (for databases) backup set with group_id=0, nonce=1d3bc2275043, datestamp=1549213025 (Feb 03 2019 16:57:05)
+0001.680 (0) This backup set is the backup set just made, so will not be deleted.
+0001.680 (0) Examining (for databases) backup set with group_id=0, nonce=7247cc61b4d7, datestamp=1549205658 (Feb 03 2019 14:54:18)
+0001.680 (0) Examining (for databases) backup set with group_id=0, nonce=7247cc61b4d7, datestamp=1549205649 (Feb 03 2019 14:54:09)
+0001.680 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.682 (0) Examining (for databases) backup set with group_id=0, nonce=c23698849ac4, datestamp=1547652468 (Jan 16 2019 15:27:48)
+0001.683 (0) Examining (for databases) backup set with group_id=0, nonce=c23698849ac4, datestamp=1547652456 (Jan 16 2019 15:27:36)
+0001.683 (0) 1547652456: db: this set includes a database (backup_2019-01-16-1527_MARISA_HERNNDEZ_TORRIJO_PSIC_c23698849ac4-db.gz); db count is now 2
+0001.683 (0) 1547652456: db: over retain limit (2); will delete this database
+0001.683 (0) Delete file: backup_2019-01-16-1527_MARISA_HERNNDEZ_TORRIJO_PSIC_c23698849ac4-db.gz, service=email
+0001.686 (0) This backup set is now empty; will remove from history
+0001.688 (0) Deleting log file (log.c23698849ac4.txt)
+0001.691 (0) Number of backup sets in history: 4; groups (files): 1
+0001.692 (0) Examining (for files) backup set with nonce=1d3bc2275043, datestamp=1549213025 (Feb 03 2019 16:57:05)
+0001.692 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.694 (0) Examining (for files) backup set with nonce=7247cc61b4d7, datestamp=1549205658 (Feb 03 2019 14:54:18)
+0001.694 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.696 (0) Examining (for files) backup set with nonce=7247cc61b4d7, datestamp=1549205649 (Feb 03 2019 14:54:09)
+0001.696 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.698 (0) Examining (for files) backup set with nonce=c23698849ac4, datestamp=1547652468 (Jan 16 2019 15:27:48)
+0001.698 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.700 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0001.705 (0) Resume backup (1d3bc2275043, 0): finish run
+0001.709 (0) Decremented the semaphore (d) by 1
+0001.711 (0) Semaphore (d) unlocked
+0001.714 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0001.720 (0) No email will/can be sent - the user has not configured an email address.
+0001.722 (0) El respaldo no ha terminado; una reanudación está programada
+7677.982 (1) Opened log file at time: Sun, 03 Feb 2019 17:02:07 +0000 on http://wp-marisa.local
+7677.985 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.9M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+7677.987 (1) Free space on disk containing Updraft's temporary directory: 389094.7 MB
+7677.991 (1) Backup run: resumption=1, nonce=1d3bc2275043, begun at=1549205649 (7678s ago), job type=backup, previous check-in=2s
+7677.993 (1) Long time past since expected resumption time: approx expected=1549205951.7, now=1549213327.5, diff=7375.8
+7677.995 (1) [Warning] Su sitio web es visitado con poca frecuencia y UpdraftPlus no está recibiendo los recursos que se espera, por favor lea esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7677.998 (1) Scheduling a resumption (2) after 300 seconds (1549213627) in case this run gets aborted
+7678.002 (1) This backup run is not intended for files - skipping
+7678.004 (1) Database dump (WordPress DB): Creation was completed already
+7678.010 (1) backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\wp-marisa/wp-content/updraft/backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz)
+7678.012 (1) Recording as successfully uploaded: backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz
+7678.016 (1) Saving backup history. Total backup size: Unknown
+7678.021 (1) Resume backup (1d3bc2275043, 1): finish run
+7678.024 (1) There were no more files that needed uploading
+7678.026 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7678.028 (1) No email will be sent - this backup set was empty.
+7678.029 (1) El respaldo no ha terminado; una reanudación está programada
+7983.834 (2) Opened log file at time: Sun, 03 Feb 2019 17:07:13 +0000 on http://wp-marisa.local
+7983.836 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.9M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+7983.838 (2) Free space on disk containing Updraft's temporary directory: 389094.3 MB
+7983.842 (2) Backup run: resumption=2, nonce=1d3bc2275043, begun at=1549205649 (7984s ago), job type=backup
+7983.844 (2) Long time past since expected resumption time: approx expected=1549206171.6, now=1549213633.4, diff=7461.8
+7983.846 (2) [Warning] Su sitio web es visitado con poca frecuencia y UpdraftPlus no está recibiendo los recursos que se espera, por favor lea esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7983.849 (2) Scheduling a resumption (3) after 300 seconds (1549213933) in case this run gets aborted
+7983.852 (2) This backup run is not intended for files - skipping
+7983.854 (2) Database dump (WordPress DB): Creation was completed already
+7983.859 (2) backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\wp-marisa/wp-content/updraft/backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz)
+7983.861 (2) Recording as successfully uploaded: backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_1d3bc2275043-db.gz
+7983.865 (2) Saving backup history. Total backup size: Unknown
+7983.869 (2) Resume backup (1d3bc2275043, 2): finish run
+7983.872 (2) There were no more files that needed uploading
+7983.874 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7983.876 (2) No email will be sent - this backup set was empty.
+7983.877 (2) El respaldo no ha terminado; una reanudación está programada
