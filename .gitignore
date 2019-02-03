@@ -5,6 +5,14 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/mu-plugins/
 
+wp-content/themes/onepress-child/node_modules
+wp-content/themes/onepress-child/node_modules/*
+wp-content/themes/onepress-child/assests
+wp-content/themes/onepress-child/assests/*
+wp-content/themes/onepress-child/gulpfile.js
+wp-content/themes/onepress-child/package.json
+wp-content/themes/onepress-child/package-lock.json
+
 /.htaccess
 /license.txt
 /readme.html
