@@ -1,0 +1,53 @@
+#content {
+  #primary {
+    padding-top: 0;
+  }
+}
+.custom-template {
+  .psicologia {
+    &:before {
+      background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
+    }
+  }
+  .colaboraciones {
+    &:before {
+      background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
+    }
+  }
+  .sobre-mi {
+    &:before {
+      background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
+    }
+  }
+  #image-title {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #0b0b0b;
+    height: 350px;
+    text-align: center;
+    margin-bottom: 4%;
+    &:before{
+      background-size: cover;
+      content: "";
+      display: block;
+      opacity: 0.5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .title-fade {
+      color: white;
+      position: relative;
+      top: 30%;
+      border-bottom: 2px solid;
+      display: inline-block;
+      font-weight: bold;
+    }
+  }
+}

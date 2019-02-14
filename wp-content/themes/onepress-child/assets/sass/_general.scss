@@ -1,0 +1,30 @@
+#content {
+  background-color: #F6F6F6;
+}
+
+.block {
+  margin: 2% 0;
+}
+
+.full-width-bg {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.full-width-img {
+  width: 100%;
+  height: auto;
+}
+
+.alternative-bg {
+  background-color: white;
+  padding: 2% 0;
+}
+
+.flex {
+  display: flex;
+}

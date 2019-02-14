@@ -8,6 +8,81 @@ Template:		 onepress
 Version:		 1.0.0
 
 */
+#content {
+  background-color: #F6F6F6; }
+
+.block {
+  margin: 2% 0; }
+
+.full-width-bg {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; }
+
+.full-width-img {
+  width: 100%;
+  height: auto; }
+
+.alternative-bg {
+  background-color: white;
+  padding: 2% 0; }
+
+.flex {
+  display: flex; }
+
+/**
+Used on tittles
+**/
+.slide-in-top {
+  -webkit-animation: slide-in-top 1.5s ease-out;
+  animation: slide-in-top 1.5s ease-out; }
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+/**
+Used on colaboraciones images containers.
+ */
+.slide-top {
+  -webkit-animation: slide-top 0.5s both;
+  animation: slide-top 0.5s both; }
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
 .hero__content .hero-large-text {
   color: #000;
   font-size: 4rem; }
@@ -20,3 +95,152 @@ Version:		 1.0.0
 
 .hero__content .hero-small-text h3 {
   color: #62615f; }
+
+#content #primary {
+  padding-top: 0; }
+
+.custom-template .psicologia:before {
+  background: url("../../uploads/2017/03/terapia.png") top center no-repeat; }
+
+.custom-template .colaboraciones:before {
+  background: url("../../uploads/2017/03/terapia.png") top center no-repeat; }
+
+.custom-template .sobre-mi:before {
+  background: url("../../uploads/2017/03/terapia.png") top center no-repeat; }
+
+.custom-template #image-title {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #0b0b0b;
+  height: 350px;
+  text-align: center;
+  margin-bottom: 4%; }
+  .custom-template #image-title:before {
+    background-size: cover;
+    content: "";
+    display: block;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  .custom-template #image-title .title-fade {
+    color: white;
+    position: relative;
+    top: 30%;
+    border-bottom: 2px solid;
+    display: inline-block;
+    font-weight: bold; }
+
+/**
+prefooter background
+ */
+.bg-container-contact {
+  color: #fff;
+  text-align: center;
+  background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 60px; }
+  .bg-container-contact .container {
+    margin: 0 auto;
+    max-width: 1100px; }
+    .bg-container-contact .container .bg-img-contact {
+      float: left; }
+    .bg-container-contact .container .bg-info-contact {
+      padding-top: 65px;
+      background: #004E95;
+      -webkit-clip-path: polygon(60% 0, 100% 0%, 100% 100%, 40% 100%);
+      clip-path: polygon(30% 0, 100% 0%, 100% 100%, 40% 100%);
+      height: 300px; }
+      .bg-container-contact .container .bg-info-contact .alternative-tittle {
+        clear: none;
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Shadows Into Light', cursive; }
+      .bg-container-contact .container .bg-info-contact h3 {
+        color: #fff;
+        clear: none;
+        font-weight: bold; }
+      .bg-container-contact .container .bg-info-contact p {
+        font-weight: bold; }
+        .bg-container-contact .container .bg-info-contact p i {
+          font-size: 1.5em;
+          padding: 0 1%; }
+      .bg-container-contact .container .bg-info-contact a {
+        padding: 1% 2%;
+        color: #004E95;
+        font-weight: bold;
+        text-decoration: none;
+        background: #fff;
+        display: inline-block; }
+        .bg-container-contact .container .bg-info-contact a:hover {
+          background-color: #0a6aa1;
+          color: #fff; }
+
+.custom-template .colaboraciones-container {
+  transition: all 0.2s ease;
+  padding: 5%;
+  flex: 1;
+  background-color: #fff;
+  margin-bottom: 6%; }
+  .custom-template .colaboraciones-container a {
+    text-decoration: none; }
+    .custom-template .colaboraciones-container a img {
+      width: 100%;
+      height: 200px; }
+  .custom-template .colaboraciones-container .colaboraciones-info {
+    background-color: #fff;
+    padding: 6%; }
+  .custom-template .colaboraciones-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: #fff; }
+
+.custom-template {
+  font-family: 'Sarabun', sans-serif; }
+  .custom-template h2 {
+    font-weight: bold;
+    font-family: 'Sarabun', sans-serif; }
+  .custom-template .cursos-container {
+    background-color: #004E95;
+    padding-top: 2%; }
+    .custom-template .cursos-container:before {
+      background-size: cover;
+      content: "";
+      display: block;
+      opacity: 0.5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../../uploads/2019/02/hands-right.jpg") center no-repeat; }
+    .custom-template .cursos-container p {
+      color: rgba(255, 255, 255, 0.7); }
+    .custom-template .cursos-container h2 {
+      color: #fff; }
+    .custom-template .cursos-container .row {
+      max-width: 1110px;
+      margin: 0 auto; }
+    .custom-template .cursos-container img {
+      width: 100%;
+      max-width: 300px; }
+    .custom-template .cursos-container .info {
+      padding-top: 2%; }
+  .custom-template .colaboraciones-about-container {
+    text-align: center; }
+    .custom-template .colaboraciones-about-container h3 {
+      font-weight: bold; }
+    .custom-template .colaboraciones-about-container .container {
+      padding: 2%;
+      margin: 2% 0; }

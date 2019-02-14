@@ -10,3 +10,5 @@ add_action( 'wp_enqueue_scripts', 'onepress_child_enqueue_styles' );
 function onepress_child_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_stylesheet_directory_uri() . '/style.css' );
 }
+
+remove_filter( 'the_content', 'wpautop' );

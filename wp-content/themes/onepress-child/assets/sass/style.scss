@@ -9,6 +9,12 @@ Version:		 1.0.0
 
 */
 
-@import "sections/general";
+@import "general";
+@import "keyframes";
 
 @import "sections/hero";
+@import "sections/titleheader";
+@import "sections/footer";
+
+@import "pages/colaboraciones";
+@import "pages/sobre_mi";

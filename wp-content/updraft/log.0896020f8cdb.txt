@@ -326,3 +326,46 @@
 7983.765 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
 7983.769 (6) No email will/can be sent - the user has not configured an email address.
 7983.770 (6) El respaldo no ha terminado; una reanudación está programada
+96753.381 (7) Opened log file at time: Mon, 04 Feb 2019 17:46:42 +0000 on http://wp-marisa.local
+96753.387 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 26M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+96753.390 (7) Free space on disk containing Updraft's temporary directory: 389140.8 MB
+96753.394 (7) Backup run: resumption=7, nonce=0896020f8cdb, begun at=1549205649 (96753s ago), job type=backup
+96753.396 (7) Long time past since expected resumption time: approx expected=1549213932.2, now=1549302402.9, diff=88470.7
+96753.398 (7) [Warning] Su sitio web es visitado con poca frecuencia y UpdraftPlus no está recibiendo los recursos que se espera, por favor lea esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+96753.403 (7) Scheduling a resumption (8) after 300 seconds (1549302702) in case this run gets aborted
+96753.457 (7) This backup run is not intended for files - skipping
+96753.460 (7) Database dump (WordPress DB): Creation was completed already
+96753.610 (7) backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_0896020f8cdb-db.gz: db: This file has not yet been successfully uploaded: will queue
+96753.626 (7) Saving backup history. Total backup size: 117.3 KB
+96753.640 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+96753.645 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+96753.647 (7) Beginning dispatch of backup to remote (email)
+96753.650 (7) backup_2019-02-03-1454_MARISA_HERNNDEZ_TORRIJO_PSIC_0896020f8cdb-db.gz: email to: anton...
+96755.046 (7) Mails were not sent successfully
+96755.090 (7) An error condition has occurred for the first time during this job
+96755.107 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+96755.115 (7) Number of backup sets in history: 4; groups (db): 1
+96755.124 (7) Examining (for databases) backup set with group_id=0, nonce=1d3bc2275043, datestamp=1549213025 (Feb 03 2019 16:57:05)
+96755.126 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+96755.128 (7) Examining (for databases) backup set with group_id=0, nonce=7247cc61b4d7, datestamp=1549205658 (Feb 03 2019 14:54:18)
+96755.128 (7) Examining (for databases) backup set with group_id=0, nonce=0896020f8cdb, datestamp=1549205649 (Feb 03 2019 14:54:09)
+96755.128 (7) This backup set is the backup set just made, so will not be deleted.
+96755.129 (7) Examining (for databases) backup set with group_id=0, nonce=c23698849ac4, datestamp=1547652468 (Jan 16 2019 15:27:48)
+96755.129 (7) Number of backup sets in history: 4; groups (files): 1
+96755.131 (7) Examining (for files) backup set with nonce=1d3bc2275043, datestamp=1549213025 (Feb 03 2019 16:57:05)
+96755.131 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+96755.137 (7) Examining (for files) backup set with nonce=7247cc61b4d7, datestamp=1549205658 (Feb 03 2019 14:54:18)
+96755.138 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+96755.140 (7) Examining (for files) backup set with nonce=0896020f8cdb, datestamp=1549205649 (Feb 03 2019 14:54:09)
+96755.140 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+96755.142 (7) Examining (for files) backup set with nonce=c23698849ac4, datestamp=1547652468 (Jan 16 2019 15:27:48)
+96755.143 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+96755.145 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+96755.162 (7) Resume backup (0896020f8cdb, 7): finish run
+96755.166 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+96755.173 (7) No email will/can be sent - the user has not configured an email address.
+96755.174 (7) El respaldo no ha terminado; una reanudación está programada
+0000.000 (8) Opened log file at time: Mon, 04 Feb 2019 17:51:43 +0000 on http://wp-marisa.local
+0000.003 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.5 WP: 4.9.8 PHP: 7.2.10 (apache2handler, Windows NT DESKTOP-2LNO47K 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.36-MariaDB WPLANG: es_ES Server: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.3M | 2M) multisite: N openssl: OpenSSL 1.1.0i  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (8) Free space on disk containing Updraft's temporary directory: 389101.5 MB
+0000.016 (8) This backup task (0896020f8cdb) is either complete or began over 2 days ago: ending (1549302703.5843, ) (existing jobdata keys: )
