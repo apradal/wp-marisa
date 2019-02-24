@@ -1,50 +1,104 @@
-.custom-template {
-  font-family: 'Sarabun', sans-serif;
-  h2 {
-    font-weight: bold;
-    font-family: 'Sarabun', sans-serif;
-  }
-  .cursos-container {
-    background-color: #004E95;
-    padding-top: 2%;
-    &:before {
-      background-size: cover;
-      content: "";
-      display: block;
-      opacity: 0.5;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url('../../uploads/2019/02/hands-right.jpg') center no-repeat;
-    }
-    p {
-      color: rgba(255, 255, 255, .7);
-    }
+#content {
+  &.custom-template {
     h2 {
-      color: #fff;
-    }
-    .row {
-      max-width: 1110px;
-      margin: 0 auto;
-    }
-    img {
-      width: 100%;
-      max-width: 300px;
-    }
-    .info {
-      padding-top: 2%;
-    }
-  }
-  .colaboraciones-about-container {
-    text-align: center;
-    h3 {
       font-weight: bold;
     }
-    .container {
-      padding: 2%;
-      margin: 2% 0;
+    .formacion-img {
+      margin: 4% 0;
+    }
+    .cursos-container {
+      position: relative;
+      background-color: #004E95;
+      padding-top: 2%;
+      &:before {
+        background-size: cover;
+        content: "";
+        display: block;
+        opacity: 0.5;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../uploads/2019/02/hands-right.jpg') center no-repeat;
+      }
+      p {
+        color: rgba(255, 255, 255, .7);
+      }
+      h2 {
+        color: #fff;
+      }
+      .row {
+        max-width: 1110px;
+        margin: 0 auto;
+      }
+      .cursos-banner {
+        width: 100%;
+        max-width: 300px;
+        position: absolute;
+        bottom: 0;
+      }
+      .info {
+        padding-top: 6%;
+        padding-bottom: 6%;
+      }
+    }
+    .colaboraciones-container {
+      margin-top: 6%;
+      .boxes-container {
+        margin-top: 8%;
+        .colaboraciones-box {
+          transition: all 0.2s ease;
+          padding: 5%;
+          flex: 1;
+          background-color: #fff;
+          a {
+            text-decoration: none;
+            img {
+              width: 100%;
+              height: 200px;
+            }
+          }
+          margin-bottom: 6%;
+          .colaboraciones-info {
+            background-color: #fff;
+            padding: 6%;
+          }
+          &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Tablet
+@media only screen and (min-width: 768px) {
+  #content {
+    &.custom-template {
+    }
+  }
+}
+
+//Wide Screen
+@media only screen and (min-width: 1120px) {
+  #content {
+    &.custom-template {
+      .cursos-container {
+        .info {
+          padding-top: 2%;
+          padding-bottom: 2%;
+        }
+      }
+      .colaboraciones-container {
+        margin-top: 3%;
+        .boxes-container {
+          margin-top: 4%;
+        }
+      }
     }
   }
 }
