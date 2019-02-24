@@ -159,7 +159,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/rosa_blanca.png" alt=""/>
+                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/medico-rosa.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>ROSA BLANCA ANDRÉS</h3>
                             <p>Licenciada en Psicología y Máster en Neuropsicología.</p>
