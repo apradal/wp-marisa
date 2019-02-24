@@ -4,7 +4,8 @@ prefooter background
 .bg-container-contact {
   color: #fff;
   text-align: center;
-  background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%);
+  //background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%);
+  background-color: #004E95;
   width: 100%;
   position: relative;
   margin-top: 60px;
@@ -12,13 +13,11 @@ prefooter background
     margin: 0 auto;
     max-width: 1100px;
     .bg-img-contact {
-      float: left;
+      display: none;
     }
     .bg-info-contact {
       padding-top: 65px;
       background: #004E95;
-      -webkit-clip-path: polygon(60% 0, 100% 0%, 100% 100%, 40% 100%);
-      clip-path: polygon(30% 0, 100% 0%, 100% 100%, 40% 100%);
       height: 300px;
       .alternative-tittle {
         clear: none;
@@ -48,6 +47,26 @@ prefooter background
         &:hover {
           background-color: #0a6aa1;
           color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  #content {
+    &.custom-template {
+      .bg-container-contact {
+        background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%);
+        .container {
+          .bg-img-contact {
+            float: left;
+            display: block;
+          }
+          .bg-info-contact {
+            -webkit-clip-path: polygon(60% 0, 100% 0%, 100% 100%, 40% 100%);
+            clip-path: polygon(30% 0, 100% 0%, 100% 100%, 40% 100%);
+          }
         }
       }
     }
