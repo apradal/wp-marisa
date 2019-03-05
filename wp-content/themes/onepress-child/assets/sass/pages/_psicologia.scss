@@ -1,0 +1,29 @@
+#content {
+  &.custom-template {
+    .psicologia-clinica {
+      background: url('../../uploads/2019/03/psicologia_clinic.png') top center no-repeat;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+  }
+}
+
+//Wide Screen
+@media only screen and (min-width: 1024px) {
+  #content {
+    &.custom-template {
+      .psicologia-clinica {
+        width: 100%;
+        background: none;
+        position: inherit;
+        margin: inherit;
+        left: inherit;
+        right: inherit;
+      }
+    }
+  }
+}

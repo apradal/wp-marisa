@@ -8,6 +8,12 @@ Template:		 onepress
 Version:		 1.0.0
 
 */
+/*****************************************
+  COLORS
+*****************************************/
+/*Backgrounds*/
+/*Text*/
+/*Anchors*/
 #content {
   background-color: #F6F6F6; }
 
@@ -19,7 +25,7 @@ Version:		 1.0.0
   height: auto; }
 
 .alternative-bg {
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 2% 0; }
 
 .flex {
@@ -91,6 +97,9 @@ Used on colaboraciones images containers.
 #content.custom-template .sobre-mi:before {
   background: url("../../uploads/2017/03/terapia.png") top center no-repeat; }
 
+#content.custom-template .psicologia:before {
+  background: url("../../uploads/2017/03/terapia.png") top center no-repeat; }
+
 #content.custom-template #image-title {
   width: 100%;
   position: relative;
@@ -108,7 +117,7 @@ Used on colaboraciones images containers.
     width: 100%;
     height: 100%; }
   #content.custom-template #image-title .title-fade {
-    color: white;
+    color: #fff;
     position: relative;
     top: 40%;
     display: inline-block;
@@ -121,7 +130,7 @@ Used on colaboraciones images containers.
     #content.custom-template #image-title:before {
       background-size: cover; } }
 
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1024px) {
   #content.custom-template #image-title {
     height: 350px;
     margin-bottom: 3%; } }
@@ -164,7 +173,7 @@ prefooter background
         color: #004E95;
         font-weight: bold;
         text-decoration: none;
-        background: #fff;
+        background: #FFFFFF;
         display: inline-block; }
         .bg-container-contact .container .bg-info-contact a:hover {
           background-color: #0a6aa1;
@@ -172,7 +181,7 @@ prefooter background
 
 @media only screen and (min-width: 1120px) {
   #content.custom-template .bg-container-contact {
-    background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%); }
+    background-image: -webkit-linear-gradient(30deg, #FFFFFF 50%, #004E95 50%); }
     #content.custom-template .bg-container-contact .container .bg-img-contact {
       float: left;
       display: block; }
@@ -233,12 +242,12 @@ prefooter background
           width: 100%;
           height: 200px; }
       #content.custom-template .colaboraciones-container .boxes-container .colaboraciones-box .colaboraciones-info {
-        background-color: #fff;
+        background-color: #FFFFFF;
         padding: 6%; }
       #content.custom-template .colaboraciones-container .boxes-container .colaboraciones-box:hover {
         transform: translateY(-10px);
         box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-        background-color: #fff; }
+        background-color: #FFFFFF; }
 
 @media only screen and (min-width: 1120px) {
   #content.custom-template .cursos-container .info {
@@ -248,3 +257,21 @@ prefooter background
     margin-top: 3%; }
     #content.custom-template .colaboraciones-container .boxes-container {
       margin-top: 4%; } }
+
+#content.custom-template .psicologia-clinica {
+  background: url("../../uploads/2019/03/psicologia_clinic.png") top center no-repeat;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; }
+
+@media only screen and (min-width: 1024px) {
+  #content.custom-template .psicologia-clinica {
+    width: 100%;
+    background: none;
+    position: inherit;
+    margin: inherit;
+    left: inherit;
+    right: inherit; } }

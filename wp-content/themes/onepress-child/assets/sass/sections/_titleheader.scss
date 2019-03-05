@@ -5,10 +5,16 @@
         background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
       }
     }
+    .psicologia {
+      &:before {
+        background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
+      }
+    }
+
     #image-title {
       width: 100%;
       position: relative;
-      background-color: #0b0b0b;
+      background-color: $image-bg-color;
       height: 200px;
       text-align: center;
       margin-bottom: 8%;
@@ -23,7 +29,7 @@
         height: 100%;
       }
       .title-fade {
-        color: white;
+        color: $text-secondary;
         position: relative;
         top: 40%;
         display: inline-block;
@@ -49,7 +55,7 @@
 }
 
 //Wide Screen
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1024px) {
   #content {
     &.custom-template {
       #image-title {

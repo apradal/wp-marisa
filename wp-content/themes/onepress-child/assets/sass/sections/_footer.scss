@@ -2,10 +2,9 @@
 prefooter background
  */
 .bg-container-contact {
-  color: #fff;
+  color: $text-secondary;
   text-align: center;
-  //background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%);
-  background-color: #004E95;
+  background-color: $alternative-bg-color;
   width: 100%;
   position: relative;
   margin-top: 60px;
@@ -17,16 +16,16 @@ prefooter background
     }
     .bg-info-contact {
       padding-top: 65px;
-      background: #004E95;
+      background: $alternative-bg-color;
       height: 300px;
       .alternative-tittle {
         clear: none;
-        color: #fff;
+        color: $text-secondary;
         font-weight: bold;
         font-family: 'Shadows Into Light', cursive;
       }
       h3 {
-        color: #fff;
+        color: $text-secondary;
         clear: none;
         font-weight: bold;
       }
@@ -39,14 +38,14 @@ prefooter background
       }
       a {
         padding: 1% 2%;
-        color: #004E95;
+        color: $anchor-color2;
         font-weight: bold;
         text-decoration: none;
-        background: #fff;
+        background: $bg-secondary;
         display: inline-block;
         &:hover {
-          background-color: #0a6aa1;
-          color: #fff;
+          background-color: $alternative-hover-color;
+          color: $text-secondary;
         }
       }
     }
@@ -57,7 +56,7 @@ prefooter background
   #content {
     &.custom-template {
       .bg-container-contact {
-        background-image: -webkit-linear-gradient(30deg, #fff 50%, #004E95 50%);
+        background-image: -webkit-linear-gradient(30deg, $bg-secondary 50%, $alternative-bg-color 50%);
         .container {
           .bg-img-contact {
             float: left;
