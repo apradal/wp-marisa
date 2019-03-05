@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<div id="content" class="custom-template">
+<div id="content" class="custom-template psicologia-page">
 
     <div id="image-title" class="psicologia">
         <h1 class="title-fade slide-in-top">PSICOLOGÍA</h1>
@@ -41,18 +41,20 @@ get_header(); ?>
         <div class="psicologia-clinica">
             <div class="container">
                 <div class="row">
-                    <div class="hidden-md-down col-lg-6">
-                        misco
+                    <div class="hidden-md-down col-lg-6 left-column">
+                        <img class="psicologia-clinica-img" src="http://wp-marisa.local/wp-content/uploads/2019/03/psicologia_clinic.png" alt=""/>
                     </div>
-                    <div class="col-xs-12 col-lg-6">
-                        <h3>PSICOLOGÍA CLÍNICA</h3>
-                        <p>Como <b>psicóloga con especialidad en clínica</b>, cuento con una amplia experiencia en el campo de la psicología clínica y la salud mental, atendiendo en mi consulta de Zaragoza tanto a pacientes con problemas o trastornos psicológicos como pacientes con patologías psiquiátricas.</p>
+                    <div class="col-xs-12 col-lg-6 right-column">
+                        <div class="center-text">
+                            <h3>PSICOLOGÍA CLÍNICA</h3>
+                            <p>Como <b>psicóloga con especialidad en clínica</b>, cuento con una amplia experiencia en el campo de la psicología clínica y la salud mental, atendiendo en mi consulta de Zaragoza tanto a pacientes con problemas o trastornos psicológicos como pacientes con patologías psiquiátricas.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row block">
+        <div class="row block patologias-clinicas">
             <div class="col-xs-12 col-md-12">
                 <h3>PATOLOGÍAS DE PSIQUIATRÍA CLÍNICA</h3>
             </div>
@@ -86,6 +88,36 @@ get_header(); ?>
                     <li>Trastorno Bipolar</li>
                     <li>Ideas delirantes</li>
                 </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="psicologia-forense alternative-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 right-column">
+                    <div class="center-text">
+                        <h3>PSICOLOGÍA FORENSE</h3>
+                        <p>Como <b>PSICÓLOGA FORENSE</b> mi ejercicio consiste en informar y asesorar a los tribunales en lo que se refiere a los procesos psicológicos, así como a la psicopatología si la hubiera y la influencia que esto puede tener en cualquier proceso que se puede llevar a cabo en los diferentes ámbitos jurisdiccionales existentes. La forma de transmitir esa información es a través de una evaluación psicológica, la redacción del informe pericial psicológico y la ratificación si fuera necesario en sede judicial.</p>
+                    </div>
+                </div>
+                <div class="hidden-md-down col-lg-6 left-column">
+                    <img class="psicologia-forense-img" src=" http://wp-marisa.local/wp-content/uploads/2019/03/mazo_justicia.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-container-contact">
+        <div class="container">
+            <div class="bg-img-contact">
+                <img src="http://wp-marisa.local/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
+            </div>
+            <div class="bg-info-contact">
+                <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
+                <h3>RESERVAR CITA </h3>
+                <p><i class="fa fa-phone"></i> 876 712 268</p>
+                <a href="http://wp-marisa.local/contacto">CONTACTO</a>
             </div>
         </div>
     </div>

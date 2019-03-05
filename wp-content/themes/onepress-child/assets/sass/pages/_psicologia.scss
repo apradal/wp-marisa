@@ -1,28 +1,130 @@
 #content {
   &.custom-template {
-    .psicologia-clinica {
-      background: url('../../uploads/2019/03/psicologia_clinic.png') top center no-repeat;
-      width: 100vw;
-      position: relative;
-      left: 50%;
-      right: 50%;
-      margin-left: -50vw;
-      margin-right: -50vw;
+    &.psicologia-page {
+      h3 {
+        font-weight: bold;
+      }
+      .psicologia-clinica {
+        margin-top: -16px;
+        background: url('../../uploads/2019/03/psicologia_clinic.png') top center no-repeat;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        color: $text-black;
+        h3 {
+          text-align: center;
+        }
+        .left-column {
+          padding-left: 0;
+        }
+        .right-column {
+          padding: 20px 15px;
+        }
+        .psicologia-clinica-img {
+          width: 100%;
+          height: 300px;
+        }
+      }
+      .psicologia-forense {
+        padding-top: 50px;
+        color: $text-secondary;
+        background: $image-bg-color;
+        width: 100%;
+        position: relative;
+        height: 300px;
+        &:before {
+          content: "";
+          background: url('../../uploads/2019/03/mazo_justicia.jpg') 25% 25% no-repeat;
+          display: block;
+          opacity: 0.5;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+        }
+        h3 {
+          text-align: center;
+          color: $text-secondary;
+        }
+        .psicologia-forense-img {
+          width: 100%;
+          height: 300px;
+        }
+      }
+      .patologias-clinicas {
+        h3 {
+          margin: 20px 0;
+          font-weight: bold;
+        }
+        h4 {
+          padding-bottom: 10px;
+          border-bottom: 1px solid;
+        }
+        ul {
+          list-style: none;
+          padding-left: 0;
+        }
+      }
+      .bg-container-contact {
+        margin-top: 0;
+      }
     }
   }
 }
+
+//Tablet
+@media only screen and (min-width: 768px) {
+  #content {
+    &.custom-template {
+      &.psicologia-page {
+        .psicologia-forense {
+          padding-top: 65px;
+        }
+      }
+    }
+  }
+}
+
 
 //Wide Screen
 @media only screen and (min-width: 1024px) {
   #content {
     &.custom-template {
-      .psicologia-clinica {
-        width: 100%;
-        background: none;
-        position: inherit;
-        margin: inherit;
-        left: inherit;
-        right: inherit;
+      &.psicologia-page {
+        .center-text {
+          position: absolute;
+          top: 50%;
+          transform: translate(0%,-50%);
+        }
+        .psicologia-clinica {
+          width: 100%;
+          background: none;
+          position: inherit;
+          margin: inherit;
+          left: inherit;
+          right: inherit;
+        }
+        .psicologia-forense {
+          color: $text-primary;
+          width: 100%;
+          background: $bg-secondary;
+          position: inherit;
+          padding: 40px 0 40px;
+          margin: inherit;
+          left: inherit;
+          right: inherit;
+          height: auto;
+          &:before {
+            content: none;
+          }
+          h3 {
+            color: $text-black;
+          }
+        }
       }
     }
   }

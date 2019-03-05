@@ -258,20 +258,95 @@ prefooter background
     #content.custom-template .colaboraciones-container .boxes-container {
       margin-top: 4%; } }
 
-#content.custom-template .psicologia-clinica {
+#content.custom-template.psicologia-page h3 {
+  font-weight: bold; }
+
+#content.custom-template.psicologia-page .psicologia-clinica {
+  margin-top: -16px;
   background: url("../../uploads/2019/03/psicologia_clinic.png") top center no-repeat;
   width: 100vw;
   position: relative;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
-  margin-right: -50vw; }
+  margin-right: -50vw;
+  color: #000; }
+  #content.custom-template.psicologia-page .psicologia-clinica h3 {
+    text-align: center; }
+  #content.custom-template.psicologia-page .psicologia-clinica .left-column {
+    padding-left: 0; }
+  #content.custom-template.psicologia-page .psicologia-clinica .right-column {
+    padding: 20px 15px; }
+  #content.custom-template.psicologia-page .psicologia-clinica .psicologia-clinica-img {
+    width: 100%;
+    height: 300px; }
+
+#content.custom-template.psicologia-page .psicologia-forense {
+  padding-top: 50px;
+  color: #fff;
+  background: #0b0b0b;
+  width: 100%;
+  position: relative;
+  height: 300px; }
+  #content.custom-template.psicologia-page .psicologia-forense:before {
+    content: "";
+    background: url("../../uploads/2019/03/mazo_justicia.jpg") 25% 25% no-repeat;
+    display: block;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  #content.custom-template.psicologia-page .psicologia-forense h3 {
+    text-align: center;
+    color: #fff; }
+  #content.custom-template.psicologia-page .psicologia-forense .psicologia-forense-img {
+    width: 100%;
+    height: 300px; }
+
+#content.custom-template.psicologia-page .patologias-clinicas h3 {
+  margin: 20px 0;
+  font-weight: bold; }
+
+#content.custom-template.psicologia-page .patologias-clinicas h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid; }
+
+#content.custom-template.psicologia-page .patologias-clinicas ul {
+  list-style: none;
+  padding-left: 0; }
+
+#content.custom-template.psicologia-page .bg-container-contact {
+  margin-top: 0; }
+
+@media only screen and (min-width: 768px) {
+  #content.custom-template.psicologia-page .psicologia-forense {
+    padding-top: 65px; } }
 
 @media only screen and (min-width: 1024px) {
-  #content.custom-template .psicologia-clinica {
+  #content.custom-template.psicologia-page .center-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%); }
+  #content.custom-template.psicologia-page .psicologia-clinica {
     width: 100%;
     background: none;
     position: inherit;
     margin: inherit;
     left: inherit;
-    right: inherit; } }
+    right: inherit; }
+  #content.custom-template.psicologia-page .psicologia-forense {
+    color: #777;
+    width: 100%;
+    background: #FFFFFF;
+    position: inherit;
+    padding: 40px 0 40px;
+    margin: inherit;
+    left: inherit;
+    right: inherit;
+    height: auto; }
+    #content.custom-template.psicologia-page .psicologia-forense:before {
+      content: none; }
+    #content.custom-template.psicologia-page .psicologia-forense h3 {
+      color: #000; } }
