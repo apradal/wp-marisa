@@ -56,6 +56,7 @@
         }
       }
       .patologias-clinicas {
+        background-color: $bg-secondary;
         h3 {
           margin: 20px 0;
           font-weight: bold;
@@ -111,7 +112,7 @@
         .psicologia-forense {
           color: $text-primary;
           width: 100%;
-          background: $bg-secondary;
+          background: $bg-primary;
           position: inherit;
           padding: 40px 0 40px;
           margin: inherit;

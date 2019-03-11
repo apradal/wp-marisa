@@ -305,17 +305,17 @@ prefooter background
     width: 100%;
     height: 300px; }
 
-#content.custom-template.psicologia-page .patologias-clinicas h3 {
-  margin: 20px 0;
-  font-weight: bold; }
-
-#content.custom-template.psicologia-page .patologias-clinicas h4 {
-  padding-bottom: 10px;
-  border-bottom: 1px solid; }
-
-#content.custom-template.psicologia-page .patologias-clinicas ul {
-  list-style: none;
-  padding-left: 0; }
+#content.custom-template.psicologia-page .patologias-clinicas {
+  background-color: #FFFFFF; }
+  #content.custom-template.psicologia-page .patologias-clinicas h3 {
+    margin: 20px 0;
+    font-weight: bold; }
+  #content.custom-template.psicologia-page .patologias-clinicas h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid; }
+  #content.custom-template.psicologia-page .patologias-clinicas ul {
+    list-style: none;
+    padding-left: 0; }
 
 #content.custom-template.psicologia-page .bg-container-contact {
   margin-top: 0; }
@@ -339,7 +339,7 @@ prefooter background
   #content.custom-template.psicologia-page .psicologia-forense {
     color: #777;
     width: 100%;
-    background: #FFFFFF;
+    background: #F6F6F6;
     position: inherit;
     padding: 40px 0 40px;
     margin: inherit;

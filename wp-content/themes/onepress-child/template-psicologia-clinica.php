@@ -54,45 +54,50 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="row block patologias-clinicas">
-            <div class="col-xs-12 col-md-12">
-                <h3>PATOLOGÍAS DE PSIQUIATRÍA CLÍNICA</h3>
-            </div>
-            <div class="col-xs-6 col-md-6">
-                <h4>TRASTORNOS DE ANSIEDAD</h4>
-                <ul>
-                    <li>Fobias</li>
-                    <li>Crisis de angustia</li>
-                    <li>Trastornos de ansiedad</li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-6">
-                <h4>TRASTORNOS DE AFECTIVOS</h4>
-                <ul>
-                    <li>Depresión</li>
-                    <li>Trastornos Adaptativos</li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-6">
-                <h4>TRASTORNOS DE LA PERSONALIDAD</h4>
-                <ul>
-                    <li>Trastornos de personalidad</li>
-                    <li>Rasgos disfuncionales (Trastorno Obsesivos, dependencia emocional…)</li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-6">
-                <h4>OTRO APOYO EN PATOLOGÍAS DE TIPO PSIQUIÁTRICO</h4>
-                <ul>
-                    <li>Esquizofrenia</li>
-                    <li>Trastorno esquizoafectivo</li>
-                    <li>Trastorno Bipolar</li>
-                    <li>Ideas delirantes</li>
-                </ul>
+    </div>
+
+    <div class="row block patologias-clinicas">
+        <div class="container">
+            <div class="row container">
+                <div class="col-xs-12 col-md-12">
+                    <h3>PATOLOGÍAS DE PSIQUIATRÍA CLÍNICA</h3>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <h4>TRASTORNOS DE ANSIEDAD</h4>
+                    <ul>
+                        <li>Fobias</li>
+                        <li>Crisis de angustia</li>
+                        <li>Trastornos de ansiedad</li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <h4>TRASTORNOS DE AFECTIVOS</h4>
+                    <ul>
+                        <li>Depresión</li>
+                        <li>Trastornos Adaptativos</li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <h4>TRASTORNOS DE LA PERSONALIDAD</h4>
+                    <ul>
+                        <li>Trastornos de personalidad</li>
+                        <li>Rasgos disfuncionales (Trastorno Obsesivos, dependencia emocional…)</li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <h4>OTRO APOYO EN PATOLOGÍAS DE TIPO PSIQUIÁTRICO</h4>
+                    <ul>
+                        <li>Esquizofrenia</li>
+                        <li>Trastorno esquizoafectivo</li>
+                        <li>Trastorno Bipolar</li>
+                        <li>Ideas delirantes</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="psicologia-forense alternative-bg">
+    <div class="psicologia-forense">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-lg-6 right-column">
