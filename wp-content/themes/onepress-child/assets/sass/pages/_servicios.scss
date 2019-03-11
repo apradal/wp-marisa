@@ -1,0 +1,38 @@
+#content {
+  &.custom-template {
+    .servicio-wrapper {
+      .servicio-block-img {
+        img {
+          width: 100%;
+          max-width: 350px;
+          max-height: 224px;
+        }
+      }
+      .servicio-block-content {
+        margin: 30px 0;
+      }
+    }
+  }
+}
+
+//Tablet
+@media only screen and (min-width: 768px) {
+  #content {
+    &.custom-template {
+      .emptySpace-md30 {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+//Wide Screen
+@media only screen and (min-width: 1120px) {
+  #content {
+    &.custom-template {
+      .emptySpace90 {
+        margin-bottom: 90px;
+      }
+    }
+  }
+}
