@@ -38,6 +38,7 @@ get_header(); ?>
     </div>
 
     <div class="container">
+        <div id="pclinica"></div>
         <div class="psicologia-clinica">
             <div class="container">
                 <div class="row">
@@ -97,6 +98,7 @@ get_header(); ?>
         </div>
     </div>
 
+    <div id="pforense"></div>
     <div class="psicologia-forense">
         <div class="container">
             <div class="row">

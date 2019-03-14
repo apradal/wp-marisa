@@ -25,3 +25,16 @@
   flex-direction: column;
   justify-content: center;
 }
+
+#pclinica, #pforense {
+  padding-top: 120px;
+  margin-top: -120px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .onepress-menu {
+    float: none !important;
+    display: table !important;
+    margin: 0 auto !important;
+  }
+}
