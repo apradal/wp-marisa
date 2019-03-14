@@ -78,7 +78,7 @@ get_header(); ?>
                     </div>
                     <div class="servicio-block-content">
                         <h4>TERAPIA PSICOLÓGICA PARA SUPERAR LA FOBIA AL DENTISTA</h4>
-                        <p>Con la colaboración de clínica dental DRA. Chamorro Pons</p>
+                        <p>Con la colaboración de clínica dental Dra. Chamorro Pons.</p>
                     </div>
                 </div>
             </div>

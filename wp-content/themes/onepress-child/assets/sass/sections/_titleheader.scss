@@ -1,16 +1,6 @@
 #content {
   &.custom-template {
-    .sobre-mi {
-      &:before {
-        background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
-      }
-    }
-    .psicologia {
-      &:before {
-        background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
-      }
-    }
-    .servicios {
+    .servicios, .contacto, .psicologia, .sobre-mi {
       &:before {
         background: url('../../uploads/2017/03/terapia.png') top center no-repeat;
       }
