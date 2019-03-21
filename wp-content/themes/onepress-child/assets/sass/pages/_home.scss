@@ -1,0 +1,92 @@
+#content {
+  &.custom-template {
+    &.home {
+      .see-more {
+        margin: 0 15px;
+      }
+      .sobre-mi {
+        h2 {
+          text-align: center;
+        }
+      }
+      .servicios {
+        h2 {text-align: center}
+      }
+      .servicio-wrapper {
+        padding: 0 15px;
+        .servicio-block-img {
+          img {
+            height: 200px;
+            max-width: 100%;
+          }
+        }
+      }
+      .psicologia-box {
+        margin: 20px 0;
+        position: relative;
+        width: 100%;
+        height: 295px;
+        background-size: 100% 295px;
+        background-color: black;
+        overflow: hidden;
+        h3 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: $text-secondary;
+          font-weight: bold;
+          font-size: 2rem;
+        }
+        &.left:hover::before {
+          transform: scale(1.5, 1.5);
+        }
+        &.left::before {
+          content: ' ';
+          background-image: url(http://wp-marisa.local/wp-content/uploads/2019/03/psicologia_clinic.png);
+          width: 100%;
+          opacity: 0.5;
+          height: 100%;
+          position: absolute;
+          background-size: 100% 100%;
+          transition: transform .2s;
+        }
+        &.right:hover::before {
+          transform: scale(1.5, 1.5);
+        }
+        &.right::before {
+          content: ' ';
+          background-image: url(http://wp-marisa.local/wp-content/uploads/2019/03/mazo_justicia.jpg);
+          width: 100%;
+          opacity: 0.5;
+          height: 100%;
+          position: absolute;
+          background-size: 100% 100%;
+          transition: transform .2s;
+        }
+      }
+    }
+  }
+}
+
+//Tablet
+@media only screen and (min-width: 768px) {
+  #content {
+    &.custom-template {
+      &.home {
+
+      }
+    }
+  }
+}
+
+//Wide Screen
+@media only screen and (min-width: 1120px) {
+  #content {
+    &.custom-template {
+      &.home {
+
+      }
+    }
+  }
+}

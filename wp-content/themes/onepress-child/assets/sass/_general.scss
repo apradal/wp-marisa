@@ -20,6 +20,15 @@
   display: flex;
 }
 
+.italic-thin {
+  font-weight: 300 !important;
+  font-style: italic;
+}
+
+.emptySpace-md30 {
+  margin-bottom: 30px;
+}
+
 .center-flex {
   display: flex;
   flex-direction: column;
@@ -46,14 +55,11 @@
     img {
       max-width: 100%;
       vertical-align: middle;
-      height: 300px;
+      height: 200px;
       object-fit: cover;
       width: 100%;
     }
     .content {
-      position: absolute;
-      top: 20%;
-      left: 50%;
       padding: 4% 4%;
       background: $bg-secondary;
       text-align: center;
@@ -94,8 +100,9 @@
         height: 500px;
       }
       .content {
+        position: absolute;
         top: 25%;
-        left: 60%;
+        left: 50%;
         padding: 2% 4%;
         border-radius: 25px 0 25px 0;
       }

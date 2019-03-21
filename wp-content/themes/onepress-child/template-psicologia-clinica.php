@@ -14,6 +14,7 @@ get_header(); ?>
     <div class="container">
         <div class="row block">
             <div class="col-xs-12 col-lg-8">
+                <h3>TERAPIA</h3>
                 <p>El tipo de terapia que principalmente se sigue en mi consulta de Psicología en Zaragoza, es la Terapia Cognitivo-Conductual, en la cual además de intervenir sobre el comportamiento inadecuado, también se interviene en las creencias y pensamientos disfuncionales que en la mayoría de las ocasiones nos llevan muchas veces a esas conductas inadecuadas. Generalmente, al principio suele ser necesario 1 sesión por semana teniendo ésta una duración mínima de 1 hora. Posteriormente, según las necesidades de cada paciente, se suelen ir espaciando de forma progresiva en el tiempo, haciendo posible que el paciente ponga en práctica él mismo, su nueva forma de funcionar. Por último, se hace una sesión al mes como seguimiento, durante dos o tres meses para asegurar el correcto funcionamiento del paciente y prevenir futuras recaídas.</p>
                 <p>Otros tipos de intervención: <strong>Terapia Orientada a los Valores, Terapia Dialéctica Conductual, Mindfulness…</strong></p>
             </div>
