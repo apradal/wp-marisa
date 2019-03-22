@@ -153,7 +153,7 @@ get_header(); ?>
     <script>
         jQuery(document).ready(function(){
             jQuery('.slick-slider').slick({
-                autoplay: false,
+                autoplay: true,
                 arrows: false
             });
         });
