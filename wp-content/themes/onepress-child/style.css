@@ -14,6 +14,9 @@ Version:		 1.0.0
 /*Backgrounds*/
 /*Text*/
 /*Anchors*/
+body p, body h1, body h2, body h3, body h4, body h5, body h6, body a {
+  font-family: 'Nunito', sans-serif; }
+
 #content {
   background-color: #F6F6F6; }
 
@@ -296,7 +299,7 @@ prefooter background
         clear: none;
         color: #fff;
         font-weight: bold;
-        font-family: 'Shadows Into Light', cursive; }
+        font-family: 'Pacifico', cursive; }
       .bg-container-contact .container .bg-info-contact h3 {
         color: #fff;
         clear: none;
@@ -534,6 +537,9 @@ prefooter background
   #content.custom-template.home .servicio-wrapper .servicio-block-img img {
     height: 200px;
     max-width: 100%; }
+
+#content.custom-template.home .psicologia-container h2 {
+  text-align: center; }
 
 #content.custom-template.home .psicologia-box {
   margin: 20px 0;
