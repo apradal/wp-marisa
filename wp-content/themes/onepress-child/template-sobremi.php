@@ -36,7 +36,7 @@ get_header(); ?>
     <div class="cursos-container">
         <div class="row block container">
             <div class="hidden-md-down col-lg-6">
-                <img class="cursos-banner" src="http://wp-marisa.local/wp-content/uploads/2019/02/marisa_banner_3.png" alt=""/>
+                <img class="cursos-banner" src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/marisa_banner_3.png" alt=""/>
             </div>
             <div class="col-xs-12 col-md-12 col-lg-6 info">
                 <h2>CURSOS REALIZADOS</h2>
@@ -63,7 +63,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/jose-carlos.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/jose-carlos.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>DR. D. JOSÉ CARLOS FUERTES ROCAÑÍN</h3>
                             <p>Psiquiatra Consultor</p>
@@ -75,7 +75,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/centro_CITA.png" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/centro_CITA.png" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CITA CLÍNICA</h3>
                             <p>Centro de Investigación y tratamiento de adicciones. – Como psicóloga para tratamiento ambulatorio en la provincia de Zaragoza.</p>
@@ -87,7 +87,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/dental.png" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/dental.png" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CLINICA DENTAL DRA. CHAMORRO PONS</h3>
                             <p>Colaborando para el tratamiento de la fobia al dentista y a las agujas.</p>
@@ -99,7 +99,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/campus2.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/campus2.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CAMPUS PSICOLOGÍA</h3>
                             <p>Profesora de Psicofarmacología y Psicopatología.</p>
@@ -111,7 +111,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/cruzroja.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/cruzroja.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CRUZ ROJA</h3>
                             <p>Colaborando como psicóloga y educadora de la salud, en la prevención de drogodependencia y trastornos de la conducta alimentaria en adolescentes. Impartiendo cursos de formación al voluntariado. Realizando talleres de sexualidad con adolescentes.</p>
@@ -123,7 +123,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2018/12/colaboraciones_pyschologies.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2018/12/colaboraciones_pyschologies.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>REVISTA “PSYCHOLOGIES”</h3>
                             <p>Colaborando en diferentes artículos e informando a dicha revista sobre diferentes temas.</p>
@@ -135,7 +135,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/logoUNED.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/logoUNED.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>UNED</h3>
                             <p>Facultad de Psicología. Como colaboradora y tutora, formando y orientando a los alumnos durante su prácticum de psicología.</p>
@@ -147,7 +147,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/aragon-tv.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/aragon-tv.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>ARAGÓN TELEVISIÓN</h3>
                             <p>Como contertulia en el programa magazine “Sin ir más lejos”.</p>
@@ -159,7 +159,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
                     <a href="#">
-                        <img src="http://wp-marisa.local/wp-content/uploads/2019/02/medico-rosa.jpg" alt=""/>
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/medico-rosa.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>ROSA BLANCA ANDRÉS</h3>
                             <p>Licenciada en Psicología y Máster en Neuropsicología.</p>
@@ -173,13 +173,13 @@ get_header(); ?>
     <div class="bg-container-contact">
         <div class="container">
             <div class="bg-img-contact">
-                <img src="http://wp-marisa.local/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
+                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
                 <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i> 876 712 268</p>
-                <a href="http://wp-marisa.local/contacto">CONTACTO</a>
+                <a href="http://s681648251.mialojamiento.es/contacto">CONTACTO</a>
             </div>
         </div>
     </div>
