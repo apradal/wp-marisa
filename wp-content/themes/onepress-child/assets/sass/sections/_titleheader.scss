@@ -9,14 +9,12 @@
     #image-title {
       width: 100%;
       position: relative;
-      background-color: $image-bg-color;
       height: 200px;
       text-align: center;
       margin-bottom: 8%;
       &:before{
         content: "";
         display: block;
-        opacity: 0.5;
         position: absolute;
         left: 0;
         top: 0;
@@ -24,6 +22,8 @@
         height: 100%;
       }
       .title-fade {
+        background-color: $anchor-color2;
+        padding: 1%;
         color: $text-secondary;
         position: relative;
         top: 40%;
