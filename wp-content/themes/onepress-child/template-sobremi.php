@@ -62,7 +62,7 @@ get_header(); ?>
         <div class="row block container boxes-container">
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="https://www.josecarlosfuertes.com/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/jose-carlos.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>DR. D. JOSÉ CARLOS FUERTES ROCAÑÍN</h3>
@@ -74,7 +74,7 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="https://www.clinicascita.com/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/centro_CITA.png" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CITA CLÍNICA</h3>
@@ -98,7 +98,7 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="http://www.campuspsicologia.com/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/campus2.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CAMPUS PSICOLOGÍA</h3>
@@ -110,7 +110,7 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="http://www.cruzroja.es/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/cruzroja.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>CRUZ ROJA</h3>
@@ -122,7 +122,7 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="https://www.psychologies.co.uk/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2018/12/colaboraciones_pyschologies.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>REVISTA “PSYCHOLOGIES”</h3>
@@ -134,7 +134,7 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="https://www.uned.es/universidad/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/logoUNED.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>UNED</h3>
@@ -146,7 +146,7 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
+                    <a href="http://www.aragontelevision.es/" target="_blank">
                         <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/aragon-tv.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>ARAGÓN TELEVISIÓN</h3>
