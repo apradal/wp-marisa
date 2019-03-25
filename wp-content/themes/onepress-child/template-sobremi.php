@@ -170,8 +170,8 @@ get_header(); ?>
 
             <div class="col-xs-12 col-md-6 col-lg-4 flex">
                 <div class="colaboraciones-box">
-                    <a href="#">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/custom/SAPLYCF.jpg" alt=""/>
+                    <a href="http://www.saplycf.com/">
+                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/custom/saplycf.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>Sociedad Aragonesa de Psiquiatría Legal y Ciencias Forenses. SAPLYCF</h3>
                         </div>
