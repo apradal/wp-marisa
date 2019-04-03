@@ -21,9 +21,11 @@ get_header(); ?>
             <div class="col-xs-12 col-md-12 col-lg-6">
                 <p>Licenciada en Psicología por la U.N.E.D., habiendo cursado dentro de la carrera la rama de clínica. Inscrita en Colegio Profesional de Psicólogos de Aragón con el número de Colegiado A-01857.</p>
                 <p>Máster en Prevención y Tratamiento de drogodependencia y otras adicciones.</p>
+                <p>Máster en Psicología Legal y Forense.</p>
+                <p>Especialista en Psicología Forense.</p>
+                <p>Máster en Adicciones.</p>
                 <p>Profesora de Psicofarmacología y Psicopatología.</p>
                 <p>Amplia experiencia en Trastornos de la Personalidad y Trastornos de Ansiedad.</p>
-                <p>Miembro de la Sociedad Española de Patología Dual. (SEPD).</p>
                 <p>Miembro de la Sociedad Aragonesa de Psiquiatría Legal y Ciencias Forenses.</p>
                 <p>Máster en Psicología Forense.</p>
             </div>
