@@ -165,8 +165,8 @@ $url = get_site_url();
                     <a href="#">
                         <img src="<?php echo $url ?>/wp-content/uploads/2019/02/medico-rosa.jpg" alt=""/>
                         <div class="colaboraciones-info">
-                            <h3>ROSA BLANCA ANDRÉS</h3>
-                            <p>Licenciada en Psicología y Máster en Neuropsicología.</p>
+                            <h3>ROSA BLANCA ANDRÉS ORTIZ</h3>
+                            <p>Psicología General Sanitaria y Máster en Neuropsicología.</p>
                         </div>
                     </a>
                 </div>
