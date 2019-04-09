@@ -95,7 +95,7 @@ $url = get_site_url();
             <div class="bg-info-contact">
                 <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
-                <p><i class="fa fa-phone"></i> 876 712 268</p>
+                <p><i class="fa fa-phone"></i>661 576 176 - 876 712 268</p>
                 <a href="<?php echo $url ?>/contacto">CONTACTO</a>
             </div>
         </div>
