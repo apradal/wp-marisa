@@ -3,7 +3,9 @@
  * Template Name: Psicologia-clinica
  */
 
-get_header(); ?>
+get_header();
+$url = get_site_url();
+?>
 
 <div id="content" class="custom-template psicologia-page">
 
@@ -19,7 +21,7 @@ get_header(); ?>
                 <p>Otros tipos de intervención: <strong>Terapia Orientada a los Valores, Terapia Dialéctica Conductual, Mindfulness…</strong></p>
             </div>
             <div class="col-xs-12 col-lg-4">
-                <img class="full-width-img" src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/test_piscologia-300x200.jpg" alt=""/>
+                <img class="full-width-img" src="<?php echo $url ?>/wp-content/uploads/2019/02/test_piscologia-300x200.jpg" alt=""/>
             </div>
         </div>
     </div>
@@ -44,7 +46,7 @@ get_header(); ?>
             <div class="container">
                 <div class="row">
                     <div class="hidden-md-down col-lg-6 left-column">
-                        <img class="psicologia-clinica-img" src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/psicologia_clinic.png" alt=""/>
+                        <img class="psicologia-clinica-img" src="<?php echo $url ?>/wp-content/uploads/2019/03/psicologia_clinic.png" alt=""/>
                     </div>
                     <div class="col-xs-12 col-lg-6 right-column">
                         <div class="center-text">
@@ -110,7 +112,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="hidden-md-down col-lg-6 left-column">
-                    <img class="psicologia-forense-img" src=" http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/mazo_justicia.jpg" alt=""/>
+                    <img class="psicologia-forense-img" src="<?php echo $url ?>/wp-content/uploads/2019/03/mazo_justicia.jpg" alt=""/>
                 </div>
             </div>
         </div>
@@ -119,13 +121,13 @@ get_header(); ?>
     <div class="bg-container-contact">
         <div class="container">
             <div class="bg-img-contact">
-                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
+                <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
                 <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i> 876 712 268</p>
-                <a href="http://s681648251.mialojamiento.es/contacto">CONTACTO</a>
+                <a href="<?php echo $url ?>/contacto">CONTACTO</a>
             </div>
         </div>
     </div>

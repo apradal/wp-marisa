@@ -3,7 +3,9 @@
  * Template Name: Servicios
  */
 
-get_header(); ?>
+get_header();
+$url = get_site_url();
+?>
 
 <div id="content" class="custom-template">
 
@@ -16,7 +18,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-4">
                 <div class="servicio-wrapper">
                     <div class="servicio-block-img">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-adultos.jpg" alt="">
+                        <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-adultos.jpg" alt="">
                     </div>
                     <div class="servicio-block-content">
                         <h4>PSICOTERAPIA ADULTOS</h4>
@@ -27,7 +29,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-4">
                 <div class="servicio-wrapper">
                     <div class="servicio-block-img">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-children.jpg" alt="">
+                        <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-children.jpg" alt="">
                     </div>
                     <div class="servicio-block-content">
                         <h4>PSICOTERAPIA ADOLESCENTES</h4>
@@ -38,7 +40,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-4">
                 <div class="servicio-wrapper">
                     <div class="servicio-block-img">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-orientacion.jpg" alt="">
+                        <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-orientacion.jpg" alt="">
                     </div>
                     <div class="servicio-block-content">
                         <h4>ENTREVISTA INFORMATIVA/SESIÓN ORIENTACIÓN</h4>
@@ -53,7 +55,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-4">
                 <div class="servicio-wrapper">
                     <div class="servicio-block-img">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios_periciales.jpg" alt="">
+                        <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios_periciales.jpg" alt="">
                     </div>
                     <div class="servicio-block-content">
                         <h4>INFORMES PSICOLÓGICOS Y PERICIALES</h4>
@@ -64,7 +66,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-4">
                 <div class="servicio-wrapper">
                     <div class="servicio-block-img">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-relajacion.jpg" alt="">
+                        <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-relajacion.jpg" alt="">
                     </div>
                     <div class="servicio-block-content">
                         <h4>TÉCNICAS DE RELAJACIÓN</h4>
@@ -74,7 +76,7 @@ get_header(); ?>
             <div class="col-xs-12 col-md-4">
                 <div class="servicio-wrapper">
                     <div class="servicio-block-img">
-                        <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-dentista.jpg" alt="">
+                        <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-dentista.jpg" alt="">
                     </div>
                     <div class="servicio-block-content">
                         <h4>TERAPIA PSICOLÓGICA PARA SUPERAR LA FOBIA AL DENTISTA</h4>
@@ -88,13 +90,13 @@ get_header(); ?>
     <div class="bg-container-contact">
         <div class="container">
             <div class="bg-img-contact">
-                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
+                <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
                 <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i> 876 712 268</p>
-                <a href="http://s681648251.mialojamiento.es/contacto">CONTACTO</a>
+                <a href="<?php echo $url ?>/contacto">CONTACTO</a>
             </div>
         </div>
     </div>

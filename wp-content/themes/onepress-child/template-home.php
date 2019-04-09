@@ -3,39 +3,41 @@
  * Template Name: Home
  */
 
-get_header(); ?>
+get_header();
+$url = get_site_url();
+?>
 
 <div id="content" class="custom-template home">
 
     <div class="slick-slider">
         <div>
             <div class="slide-content">
-                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/custom/slider1.jpg" alt="" id="slide1-img">
+                <img src="<?php echo $url ?>/wp-content/uploads/custom/slider1.jpg" alt="" id="slide1-img">
                 <div class="content">
                     <h2>MARISA HERNÁNDEZ TORRIJO</h2>
                     <p>CONSULTA DE PSICOLOGÍA Nº COLEGIADO A-01857</p>
                     <p class="italic-thin">"PROFESIONALIDAD, EXPERIENCIA Y CONFIANZA"</p>
-                    <a href="http://s681648251.mialojamiento.es/terapia">SOBRE MI</a>
+                    <a href="<?php echo $url ?>/terapia">SOBRE MI</a>
                 </div>
             </div>
         </div>
         <div>
             <div class="slide-content">
-                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/custom/slider2.jpg" alt="" id="slide2-img">
+                <img src="<?php echo $url ?>/wp-content/uploads/custom/slider2.jpg" alt="" id="slide2-img">
                 <div class="content">
                     <h2>Psicología Clínica / Forense</h2>
                     <p>Consulta Patologías</p>
-                    <a href="http://s681648251.mialojamiento.es/terapia">PSICOLOGIA</a>
+                    <a href="<?php echo $url ?>/terapia">PSICOLOGIA</a>
                 </div>
             </div>
         </div>
         <div>
             <div class="slide-content">
-                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/custom/slider3.jpeg" alt="" id="slide3-img">
+                <img src="<?php echo $url ?>/wp-content/uploads/custom/slider3.jpeg" alt="" id="slide3-img">
                 <div class="content">
                     <h2>Servicios Psicológicos</h2>
                     <p>Todo tipo de soluciones</p>
-                    <a href="http://s681648251.mialojamiento.es/terapia">SERVICIOS</a>
+                    <a href="<?php echo $url ?>/terapia">SERVICIOS</a>
                 </div>
             </div>
         </div>
@@ -48,7 +50,7 @@ get_header(); ?>
             <div class="col-12">
                 <h2>SOBRE MÍ</h2>
                 <p>Soy <b>Marisa Hernández Torrijo</b>, Licenciada en Psicología Clínica por la por la UNED. Dedico mi carrera profesional a la prevención y tratamiento de trastornos psicológicos, así como a promover la salud mental y el bienestar psicológico. Actualmente, trabajo como psicóloga en Zaragoza, en mi consulta particular, realizando psicoterapia individual tanto con adultos como adolescentes. Además, colaboro con otras entidades y medios de comunicación. En consulta, contamos con el apoyo del Dr. José Carlos Fuertes como psiquiatra consultor y de Rosa Blanca Andrés Graduada en Psicología y Neuropsicóloga.</p>
-                <a href="http://s681648251.mialojamiento.es/sobre-mi">Más sobre mi...</a>
+                <a href="<?php echo $url ?>/sobre-mi">Más sobre mi...</a>
             </div>
         </div>
     </div>
@@ -65,7 +67,7 @@ get_header(); ?>
                 <div class="col-xs-12 col-md-3">
                     <div class="servicio-wrapper">
                         <div class="servicio-block-img">
-                            <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-children.jpg" alt="">
+                            <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-children.jpg" alt="">
                         </div>
                         <div class="servicio-block-content">
                             <h4>PSICOTERAPIA ADOLESCENTES</h4>
@@ -76,7 +78,7 @@ get_header(); ?>
                 <div class="col-xs-12 col-md-3">
                     <div class="servicio-wrapper">
                         <div class="servicio-block-img">
-                            <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-dentista.jpg" alt="">
+                            <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-dentista.jpg" alt="">
                         </div>
                         <div class="servicio-block-content">
                             <h4>TERAPIA PSICOLÓGICA PARA SUPERAR LA FOBIA AL DENTISTA</h4>
@@ -87,7 +89,7 @@ get_header(); ?>
                 <div class="col-xs-12 col-md-3">
                     <div class="servicio-wrapper">
                         <div class="servicio-block-img">
-                            <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-relajacion.jpg" alt="">
+                            <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-relajacion.jpg" alt="">
                         </div>
                         <div class="servicio-block-content">
                             <h4>TÉCNICAS DE RELAJACIÓN</h4>
@@ -97,7 +99,7 @@ get_header(); ?>
                 <div class="col-xs-12 col-md-3">
                     <div class="servicio-wrapper">
                         <div class="servicio-block-img">
-                            <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/03/servicios-terapia-orientacion.jpg" alt="">
+                            <img src="<?php echo $url ?>/wp-content/uploads/2019/03/servicios-terapia-orientacion.jpg" alt="">
                         </div>
                         <div class="servicio-block-content">
                             <h4>ENTREVISTA INFORMATIVA/SESIÓN ORIENTACIÓN</h4>
@@ -105,7 +107,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="col-12 see-more">
-                    <a href="http://s681648251.mialojamiento.es/servicios">Más servicios...</a>
+                    <a href="<?php echo $url ?>/servicios">Más servicios...</a>
                 </div>
             </div>
         </div>
@@ -120,14 +122,14 @@ get_header(); ?>
                 <h2>PSICOLOGIA CLÍNICA / FORENSE</h2>
             </div>
             <div class="col-xs-12 col-md-6">
-                <a href="http://s681648251.mialojamiento.es/terapia">
+                <a href="<?php echo $url ?>/terapia">
                     <div class="psicologia-box left">
                         <h3>CLÍNICA</h3>
                     </div>
                 </a>
             </div>
             <div class="col-xs-12 col-md-6">
-                <a href="http://s681648251.mialojamiento.es/terapia">
+                <a href="<?php echo $url ?>/terapia">
                     <div class="psicologia-box right">
                         <h3>FORENSE</h3>
                     </div>
@@ -139,13 +141,13 @@ get_header(); ?>
     <div class="bg-container-contact">
         <div class="container">
             <div class="bg-img-contact">
-                <img src="http://s681648251.mialojamiento.es/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
+                <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
                 <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i> 876 712 268</p>
-                <a href="http://s681648251.mialojamiento.es/contacto">CONTACTO</a>
+                <a href="<?php echo $url ?>/contacto">CONTACTO</a>
             </div>
         </div>
     </div>

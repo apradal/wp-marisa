@@ -3,7 +3,9 @@
  * Template Name: Contacto
  */
 
-get_header(); ?>
+get_header();
+$url = get_site_url();
+?>
 
 <div id="content" class="custom-template">
 
