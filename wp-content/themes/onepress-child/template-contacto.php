@@ -19,11 +19,17 @@ $url = get_site_url();
                 <div class="contact-info">
                     <h3>LLAMA E INFÓRMATE SIN COMPROMISO</h3>
                     <ul>
+                        <li><strong>Psicología Clínica y Forense.</strong></li>
                         <li>Teléfono: 876 712 268</li>
                         <li>Urgencias: 661 576 176</li>
-                        <li>Email: mlhernandeztorrijo@hotmail.com</li>
-                        <li>Dirección: Paseo Independencia nº8, 7ºE. • 50004 – Zaragoza</li>
+                        <li>Email: <a href="mailto:mlhernandeztorrijo@hotmail.com" target="_top">mlhernandeztorrijo@hotmail.com</a></li>
                     </ul>
+                    <ul>
+                        <li><strong>Psicología Infanto-Juvenil.</strong></li>
+                        <li>Teléfono: 722 29 79 91</li>
+                        <li>Email: <a href="mailto:rosablancaandres@gmail.com" target="_top">rosablancaandres@gmail.com</a></li>
+                    </ul>
+                    <p>Dirección: Paseo Independencia nº8, 7ºE. • 50004 – Zaragoza</p>
                 </div>
             </div>
             <div class="col-xs-12 col-md-6">
