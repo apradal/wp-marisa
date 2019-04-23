@@ -49,7 +49,8 @@ $url = get_site_url();
         <div class="row block sobre-mi">
             <div class="col-12">
                 <h2>SOBRE MÍ</h2>
-                <p>Soy <b>Marisa Hernández Torrijo</b>, Licenciada en Psicología Clínica por la por la UNED. Dedico mi carrera profesional a la prevención y tratamiento de trastornos psicológicos, así como a promover la salud mental y el bienestar psicológico. Actualmente, trabajo como psicóloga en Zaragoza, en mi consulta particular, realizando psicoterapia individual tanto con adultos como adolescentes. Además, colaboro con otras entidades y medios de comunicación. En consulta, contamos con el apoyo del Dr. José Carlos Fuertes como psiquiatra consultor y de Rosa Blanca Andrés Graduada en Psicología y Neuropsicóloga.</p>
+                <p>Soy <b>Marisa Hernández Torrijo</b>, Licenciada en Psicología Clínica por la por la UNED. Dedico mi carrera profesional a la prevención y tratamiento de trastornos psicológicos, así como a promover la salud mental y el bienestar psicológico. Actualmente, trabajo como psicóloga en Zaragoza, en mi consulta particular, realizando psicoterapia individual tanto con adultos como adolescentes. Además, colaboro con otras entidades y medios de comunicación. En consulta trabajamos con expertas psicólogas y psiquiatras como el Dr. José Carlos Fuertes, psiquiatra consultor, y Rosa Blanca Andrés, Graduada en Psicología y Neuropsicóloga.</p>
+                <p>Si lo que buscas es apoyo psicológico, tienes mis servicios como psicóloga a tu entera disposición.</p>
                 <a href="<?php echo $url ?>/sobre-mi">Más sobre mi...</a>
             </div>
         </div>
@@ -71,7 +72,7 @@ $url = get_site_url();
                         </div>
                         <div class="servicio-block-content">
                             <h4>PSICOTERAPIA ADOLESCENTES</h4>
-                            <p>Algunas de las problemáticas que trabajo en terapia son: Problemas de comportamiento. Regulación de las emociones e impulsividad. Adicciones. Trastornos de la conducta alimentaria. Depresión. Ansiedad. Miedos y Fobias. Habilidades Sociales; conversaciones, hablar en público, asertividad y saber decir NO. Duelo. Autoestima.</p>
+                            <p>Como una de las psicólogas en Zaragoza más comprometidas con los jóvenes de nuestra sociedad, trabajo en terapia con problemáticas como: Problemas de comportamiento. Regulación de las emociones e impulsividad. Adicciones. Trastornos de la conducta alimentaria. Depresión. Ansiedad. Miedos y Fobias. Habilidades Sociales; conversaciones, hablar en público, asertividad y saber decir NO. Duelo. Autoestima.</p>
                         </div>
                     </div>
                 </div>
