@@ -63,7 +63,7 @@ $url = get_site_url();
         <div class="container servicios">
             <div class="row">
                 <div class="col-12">
-                    <h2>SERVICIOS QUE OFRECEMOS EN LA CLÍNICA</h2>
+                    <h2>SERVICIOS QUE OFRECEMOS EN LA CONSULTA</h2>
                 </div>
                 <div class="col-xs-12 col-md-3">
                     <div class="servicio-wrapper">

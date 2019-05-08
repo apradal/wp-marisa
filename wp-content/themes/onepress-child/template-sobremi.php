@@ -29,7 +29,6 @@ $url = get_site_url();
                 <p>Profesora de Psicofarmacología y Psicopatología.</p>
                 <p>Amplia experiencia en Trastornos de la Personalidad y Trastornos de Ansiedad.</p>
                 <p>Miembro de la Sociedad Aragonesa de Psiquiatría Legal y Ciencias Forenses.</p>
-                <p>Máster en Psicología Forense.</p>
             </div>
             <div class="col-xs-12 col-md-12 col-lg-6">
                 <img class="formacion-img" src="<?php echo $url ?>/wp-content/uploads/2017/03/psicologa.png" alt=""/>
