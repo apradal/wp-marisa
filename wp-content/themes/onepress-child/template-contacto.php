@@ -26,7 +26,7 @@ $url = get_site_url();
                     </ul>
                     <ul>
                         <li><strong>Psicología Infanto-Juvenil.</strong></li>
-                        <li>Teléfono: 722 29 79 91</li>
+                        <li>Teléfono: 669 280 597</li>
                         <li>Email: <a href="mailto:rosablancaandres@gmail.com" target="_top">rosablancaandres@gmail.com</a></li>
                     </ul>
                     <p>Dirección: Paseo Independencia nº8, 7ºE. • 50004 – Zaragoza</p>
