@@ -94,6 +94,10 @@ $url = get_site_url();
                         </div>
                         <div class="servicio-block-content">
                             <h4>TÉCNICAS DE RELAJACIÓN</h4>
+                            <p>Técnicas para la ansiedad cognitiva o pensamientos acelerados.</p>
+                            <p>Técnicas para la ansiedad fisiológica y control de la activación.</p>
+                            <p>Técnicas de Mindfulness para centrar tu pensamiento en el "Aquí y Ahora" y evitar pensamientos negativos futuristas.</p>
+                            <p>Técnica de Relajación Muscular Progresiva de Jacobson.</p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +149,7 @@ $url = get_site_url();
                 <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
-                <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
+                <h2 class="alternative-tittle">"Tu problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i>661 576 176 - 876 712 268</p>
                 <a href="<?php echo $url ?>/contacto">CONTACTO</a>

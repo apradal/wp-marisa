@@ -22,7 +22,7 @@ $url = get_site_url();
                     </div>
                     <div class="servicio-block-content">
                         <h4>PSICOTERAPIA ADULTOS</h4>
-                        <p>Algunas de las problemáticas que trabajo en terapia son: Depresión. Ansiedad. Fobias y Miedos. Regulación de emociones e impulsividad. Habilidades sociales; conversaciones, hablar en público, asertividad y Saber decir NO. Adicciones. Trastornos de la conducta alimentaria. Trastornos de la personalidad (trastorno límite, trastorno obsesivo compulsivo, etc…) Duelo. Autoestima. Esquizofrenia y otras psicósis.</p>
+                        <p>Algunas de las problemáticas que trabajo en terapia son: Depresión. Ansiedad. Fobias y Miedos. Regulación de emociones e impulsividad. Habilidades sociales, conversaciones, hablar en público, asertividad y Saber decir NO. Adicciones. Trastornos de la conducta alimentaria. Trastornos de la personalidad (trastorno límite, trastorno obsesivo compulsivo, etc…) Duelo. Autoestima. Esquizofrenia y otras psicósis.</p>
                     </div>
                 </div>
             </div>
@@ -44,6 +44,11 @@ $url = get_site_url();
                     </div>
                     <div class="servicio-block-content">
                         <h4>ENTREVISTA INFORMATIVA/SESIÓN ORIENTACIÓN</h4>
+                        <p>Orientación a familiares sobre cómo abordar el probema en casa</p>
+                        <p>Pautas para padres de niños con problemas de conducta.</p>
+                        <p>Consultas sobre diferentes psicopatologías ya diagnosticadas y posibles intervenciones.</p>
+                        <p>Informes piscológicos y periciales en los diferentes ámbitos jurisdiccionales penal, civil o laboral</p>
+                        <p>Informes psicológicos para otros profesionales de la salud, empresas, universidades, etc...</p>
                     </div>
                 </div>
             </div>
@@ -70,6 +75,10 @@ $url = get_site_url();
                     </div>
                     <div class="servicio-block-content">
                         <h4>TÉCNICAS DE RELAJACIÓN</h4>
+                        <p>Técnicas para la ansiedad cognitiva o pensamientos acelerados.</p>
+                        <p>Técnicas para la ansiedad fisiológica y control de la activación.</p>
+                        <p>Técnicas de Mindfulness para centrar tu pensamiento en el "Aquí y Ahora" y evitar pensamientos negativos futuristas.</p>
+                        <p>Técnica de Relajación Muscular Progresiva de Jacobson.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +102,7 @@ $url = get_site_url();
                 <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
-                <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
+                <h2 class="alternative-tittle">"Tu problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i>661 576 176 - 876 712 268</p>
                 <a href="<?php echo $url ?>/contacto">CONTACTO</a>

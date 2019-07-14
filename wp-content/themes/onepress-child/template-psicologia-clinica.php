@@ -64,7 +64,7 @@ $url = get_site_url();
         <div class="container">
             <div class="row container">
                 <div class="col-xs-12 col-md-12">
-                    <h3>PATOLOGÍAS DE PSIQUIATRÍA CLÍNICA</h3>
+                    <h3>PATOLOGÍAS DE PSICOLOGÍA CLÍNICA</h3>
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <h4>TRASTORNOS DE ANSIEDAD</h4>
@@ -79,13 +79,18 @@ $url = get_site_url();
                     <ul>
                         <li>Depresión</li>
                         <li>Trastornos Adaptativos</li>
+                        <li>Distimia</li>
+                        <li>Trastornos afectivos estacionales</li>
+                        <li>Duelo</li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <h4>TRASTORNOS DE LA PERSONALIDAD</h4>
                     <ul>
-                        <li>Trastornos de personalidad</li>
-                        <li>Rasgos disfuncionales (Trastorno Obsesivos, dependencia emocional…)</li>
+                        <li>Trastorno obsesivo-compulsivo</li>
+                        <li>Trastorno límite de la personalidad</li>
+                        <li>Trastorno antisocial de la personalidad</li>
+                        <li>Rasgos disfuncionales (Obsesividad, dependencia emocional, evitación, paranoide…)</li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-6">
@@ -124,7 +129,7 @@ $url = get_site_url();
                 <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
-                <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
+                <h2 class="alternative-tittle">"Tu problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i>661 576 176 - 876 712 268</p>
                 <a href="<?php echo $url ?>/contacto">CONTACTO</a>

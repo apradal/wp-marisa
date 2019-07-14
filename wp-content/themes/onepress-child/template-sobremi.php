@@ -190,7 +190,7 @@ $url = get_site_url();
                 <img src="<?php echo $url ?>/wp-content/uploads/2019/02/marisa_bg_small.png" alt=""/>
             </div>
             <div class="bg-info-contact">
-                <h2 class="alternative-tittle">"Su problema tiene tratamiento"</h2>
+                <h2 class="alternative-tittle">"Tu problema tiene tratamiento"</h2>
                 <h3>RESERVAR CITA </h3>
                 <p><i class="fa fa-phone"></i>661 576 176 - 876 712 268</p>
                 <a href="<?php echo $url ?>/contacto">CONTACTO</a>
