@@ -54,7 +54,7 @@ $url = get_site_url();
         </div>
     </div>
 
-    <div class="colaboraciones-container container">
+    <div class="colaboraciones-container container" id="colaboraciones">
         <div class="block container">
             <div class="col-xs-12">
                 <h2>Mis Colaboraciones</h2>
@@ -165,7 +165,7 @@ $url = get_site_url();
                         <img src="<?php echo $url ?>/wp-content/uploads/2019/02/medico-rosa.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>ROSA BLANCA ANDRÉS ORTIZ</h3>
-                            <p>Psicología General Sanitaria y Máster en Neuropsicología.</p>
+                            <p>Psicóloga infanto-juvenil.</p>
                         </div>
                     </a>
                 </div>
@@ -177,6 +177,20 @@ $url = get_site_url();
                         <img src="<?php echo $url ?>/wp-content/uploads/custom/saplycf.jpg" alt=""/>
                         <div class="colaboraciones-info">
                             <h3>Sociedad Aragonesa de Psiquiatría Legal y Ciencias Forenses. SAPLYCF</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4 flex">
+                <div class="colaboraciones-box">
+                    <a href="#">
+                        <img src="<?php echo $url ?>/wp-content/uploads/custom/hipoterapia.jpg" alt=""/>
+                        <div class="colaboraciones-info">
+                            <h3>HIPOTERAPIA</h3>
+                            <p>Sandra Naval Gracia</p>
+                            <p>Técnico Superior en Educación Infantil.</p>
+                            <p>Experta en intervención asistida con animales.</p>
                         </div>
                     </a>
                 </div>
